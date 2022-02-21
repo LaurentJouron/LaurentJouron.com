@@ -45,7 +45,6 @@ typewriter
 .start()
 
 // Animation Contact
-
 const input_fields = document.querySelectorAll('input');
 
 for(let i = 0; i < input_fields.length; i++) {
@@ -57,11 +56,9 @@ for(let i = 0; i < input_fields.length; i++) {
             e.target.parentNode.classList.remove('animation')
         }
     })
-
 }
 
 // Anim GSAP + ScrollMagic
-
 const navbar = document.querySelector('.nav-gauche');
 const titre = document.querySelector('h1');
 const btn = document.querySelectorAll('.btn-acc')
@@ -129,8 +126,7 @@ const scene2 = new ScrollMagic.Scene({
 .addTo(controller)
 
 
-// Vague 2 
-
+// Vague 2
 const itemPortfolio2 = document.querySelectorAll('.vague2')
 
 const tlPortfolio2 = new TimelineMax();
@@ -149,7 +145,6 @@ const scene3 = new ScrollMagic.Scene({
 
 
 // Vague 3
-
 const itemPortfolio3 = document.querySelectorAll('.vague3')
 
 const tlPortfolio3 = new TimelineMax();
@@ -168,7 +163,6 @@ const scene4 = new ScrollMagic.Scene({
 
 
 // Animation range
-
 const sectionComp = document.querySelector('.section-range');
 const titreComp = document.querySelector('.titre-exp');
 const allLabel = document.querySelectorAll('.label-skill')
