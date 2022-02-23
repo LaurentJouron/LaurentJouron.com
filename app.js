@@ -27,11 +27,11 @@ let typewriter = new Typewriter(txtAnim,  {
 typewriter 
 .pauseFor(1800)
 .changeDelay(22)
-.typeString('Welcome. I\'m Laurent Jouron, I use ')
+.typeString('<span style="color: #bf1e2e;">Welcome. I\'m Laurent Jouron.</span>')
 .pauseFor(300)
-.typeString('<strong><span style="color: #F6D049;">Python</span></strong>')
+.typeString('<strong><span style="color: #bf1e2e;"> I use </span><span style="color: #F6D049;">Python</span></strong>')
 .pauseFor(1000)
-.deleteChars(6)
+.deleteChars(12)
 .typeString('<strong><span style="color: #5C2B3D;">Windev</span></strong>')
 .pauseFor(1000)
 .deleteChars(6)
@@ -49,8 +49,8 @@ typewriter
 .deleteChars(10)
 .typeString('<strong><span style="color: #C84D9B;">Microsoft office</span></strong>')
 .pauseFor(1000)
-.deleteChars(29)
-.typeString('<strong> I\'m Application developper.</strong>')
+.deleteChars(22)
+.typeString('<strong>I\'m <span>application developper.</span></strong>')
 .start()
 
 // Animation Contact
