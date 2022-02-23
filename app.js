@@ -35,16 +35,13 @@ typewriter
 .typeString('<strong><span style="color: #F6D049;">Python </span> application for learning.</strong>')
 .pauseFor(1000)
 .deleteChars(33)
-.typeString('<strong><span style="color: #006EBF;">SQL</span> user to work.</strong>')
+.typeString('<strong><span style="color: #006EBF;">SQL </span> - <span style="color: #5C2B3D;"> Windev </span> user to work.</strong>')
 .pauseFor(1000)
-.deleteChars(18)
+.deleteChars(29)
 .typeString('<strong><span style="color: #D25836;"> HTML</span> - <span style="color: #254BDD;">CSS </span>for fun.</strong>')
 .pauseFor(1000)
 .deleteChars(19)
 .typeString('<strong><span style="color: #FAC918;"> JavaScript </span>for fun.</strong>')
-.pauseFor(1000)
-.deleteChars(19)
-.typeString('<strong><span style="color: #5C2B3D;"> Windev </span>for work.</strong>')
 .start()
 
 // Animation Contact

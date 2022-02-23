@@ -13,13 +13,19 @@ body {
     background: #f1f1f1;
 }
 
+:root {
+    --color1: #bf1e2e;  /* Rouge */
+    --color2: #3c65af;  /* Bleu Defilépsie */
+    --color3: #333333;  /* Gris */
+}
+
 /*-------------- Navigation --------------*/
 
 .nav-gauche {
     width: 300px;
     height: 100vh;
     min-height: 800px;
-    background: #333;
+    background: var(--color3);
     position: fixed;
     top: 0;
     left: -300px;
