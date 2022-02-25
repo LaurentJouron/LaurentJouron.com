@@ -45,7 +45,7 @@ typewriter
 .typeString('<strong><span style="color: #254BDD;"> CSS</span></strong>')
 .pauseFor(1000)
 .deleteChars(3)
-.typeString('<strong><span> JavaScript</span></strong>')
+.typeString('<strong><span style="color: #EFD81D;"> JavaScript</span></strong>')
 .pauseFor(1000)
 .deleteChars(10)
 .typeString('<strong><span style="color: #C84D9B;"> Microsoft office</span></strong>')

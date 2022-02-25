@@ -817,30 +817,33 @@ h1 {
 }
 
 .b1 {
-    width: 90%;
+    width: 10%;
+    background: #EFD81D
 }
 
 .b2 {
-    width: 75%;
-    background: rgb(243,237,146);
+    width: 40%;
+    background: #366C9C;
 }
 
 .b3 {
     width: 70%;
-    background: rgb(243,237,146);
+    background: #FF1FCA;
 }
 
 .b4 {
     width: 80%;
+    background: #006EBF;
 }
 
 .b5 {
-    width: 70%;
+    width: 40%;
+    background: #5C2B3D;
 }
 
 .b6 {
-    width: 80%;
-    background: rgb(243,237,146);
+    width: 60%;
+    background: ##D25836;
 }
 
 .label-skill {
