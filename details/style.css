@@ -1,3 +1,4 @@
+
 :root {
     --color1: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
     --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
@@ -14,21 +15,25 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 18px;
     font-family: sans-serif;
     height: 100vh;
     overflow-x: hidden;
 }
+
 .container {
     display: flex;
 }
+
 .title {
     width: 50%;
     height: 100vh;
-    background: #000;
+    background: var(--color3);
     position: relative;
 }
+
 .presentation {
     position: absolute;
     color: var(--color4);
@@ -37,16 +42,19 @@ body {
     transform: translate(-50%, -50%);
     width: 80%;
 }
+
 .presentation p {
     margin-top: 20px;
 }
+
 h1 {
     font-size: 80px;
     display: block;
     width: 100%;
 }
+
 .bouton {
-    background-color: rgb(76,99,175);
+    background-color: var(--color2);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -62,6 +70,7 @@ h1 {
     width: 50%;
     height: 100vh;
 }
+
 .cards, .stack {
     transform-style: preserve-3d;
 }
@@ -76,6 +85,10 @@ h1 {
     transition: 1s ease;
 }
 
+.boxCartes:hover .cards{
+    transform:rotateX(0deg) rotateZ(0deg);
+}
+
 .stack {
     display: block;
     position: relative;
@@ -84,11 +97,13 @@ h1 {
     font-size: 13.5px;
     line-height: 1.25;
 }
+
 .stack .contents {
-    color: #fff;
+    color: var(--color4);
 }
+
 .contents h2 {
-    color: #aff;
+    color: var(--color1);
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 4.5px;
@@ -96,6 +111,7 @@ h1 {
 .contents span {
     margin-right: 13.5px;
 }
+
 .card {
     background-image: url("fond_cartes.jfif");
     background-size: 200% 200%;
