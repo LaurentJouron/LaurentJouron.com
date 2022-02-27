@@ -4,20 +4,22 @@
     padding: 0;
 }
 
+:root {
+    --color1: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
+    --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
+    --color3: #333333;  /* Gris rgb(51 51 51) */
+    --color4: #f1f1f1;  /* Gris très clair rgb(241 241 241) */
+    --color5: #002D5F;  /* Bleu foncé Expressions Parfumées rgb(0 45 95) */
+    --color6: #EF9700;  /* Orange Camille Albane rgb(239 151 0) */
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f1f1f1;
-}
-
-:root {
-    --color1: #bf1e2e;  /* Rouge */
-    --color2: #3c65af;  /* Bleu Defilépsie */
-    --color3: #333333;  /* Gris */
-    --color4: #f1f1f1;  /* Gris très clair */
+    background: var(--color4);
 }
 
 /*-------------- Navigation --------------*/
@@ -944,7 +946,7 @@ h1 {
 .barre-verticale {
     height: 1000px;
     width: 5px;
-    background: #000;
+    background: var(--color3);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -965,7 +967,7 @@ h1 {
 }
 
 .boule-ico img {
-    width: 25px;
+    width: 28px;
 }
 
 .flex-cont-bloc-exp {
@@ -1000,11 +1002,11 @@ h1 {
 }
 
 .bloc1 {
-    background: #fb97a0;
+    background: var(--color5);
 }
 
 .bloc2 {
-    background: #bfe2ca;
+    background: var(--color6);
 }
 
 .bloc3 {
