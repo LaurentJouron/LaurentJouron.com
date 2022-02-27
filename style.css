@@ -11,6 +11,8 @@
     --color4: #f1f1f1;  /* Gris très clair rgb(241 241 241) */
     --color5: #002D5F;  /* Bleu foncé Expressions Parfumées rgb(0 45 95) */
     --color6: #EF9700;  /* Orange Camille Albane rgb(239 151 0) */
+    --color7: #F6D14F;  /* Jaune Orangé Coiffirst rgb(246 209 76) */
+    --color8: #B9B9B9;  /* gris Dessange rgb(185 185 185) */
 }
 
 html {
@@ -1010,11 +1012,11 @@ h1 {
 }
 
 .bloc3 {
-    background: #a6daef;
+    background: var(--color7);
 }
 
 .bloc4 {
-    background: #d0e2ec;
+    background: var(--color8);
 }
 
 .titre-section-bloc {
@@ -1089,6 +1091,7 @@ h1 {
 .txt-par {
     font-size: 30px;
     font-weight: bold;
+    color: var(--color2);
     margin: 0 50px;
 }
 
