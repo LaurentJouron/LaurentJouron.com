@@ -1,0 +1,106 @@
+:root {
+    --color1: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
+    --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
+    --color3: #333333;  /* Gris rgb(51 51 51) */
+    --color4: #f1f1f1;  /* Gris très clair rgb(241 241 241) */
+    --color5: #002D5F;  /* Bleu foncé Expressions Parfumées rgb(0 45 95) */
+    --color6: #EF9700;  /* Orange Camille Albane rgb(239 151 0) */
+    --color7: #F6D14F;  /* Jaune Orangé Coiffirst rgb(246 209 76) */
+    --color8: #B9B9B9;  /* gris Dessange rgb(185 185 185) */
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+}
+.title {
+    width: 50%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+}
+.presentation {
+    position: absolute;
+    color: var(--color4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.presentation p {
+    margin-top: 20px;
+}
+h1 {
+    font-size: 80px;
+    display: block;
+    width: 100%;
+}
+.bouton {
+    background-color: rgb(76,99,175);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.boxCartes{
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+.cards, .stack {
+    transform-style: preserve-3d;
+}
+.cards {
+    display: grid;
+    grid-template: repeat(2, 216px) / repeat(2, 324px);
+    grid-gap: 27px;
+    position: absolute;
+    top: 27%;
+    left: 14%;
+    transform:rotateX(45deg) rotateZ(45deg);
+    transition: 1s ease;
+}
+
+.stack {
+    display: block;
+    position: relative;
+}
+.contents {
+    font-size: 13.5px;
+    line-height: 1.25;
+}
+.stack .contents {
+    color: #fff;
+}
+.contents h2 {
+    color: #aff;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 4.5px;
+}
+.contents span {
+    margin-right: 13.5px;
+}
+.card {
+    background-image: url("fond_cartes.jfif");
+    background-size: 200% 200%;
+    padding: 13.5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
