@@ -30,7 +30,7 @@ typewriter
 .typeString('<span style="color: #bf1e2e;">Welcome on my website! </span>')
 .pauseFor(800)
 .deleteChars(24)
-.typeString('I use : <strong><span style="color: #366C9C;"> Python</span></strong>')
+.typeString('<span style="color: #333333;">I use : </span><strong><span style="color: #366C9C;"> Python</span></strong>')
 .pauseFor(1000)
 .deleteChars(8)
 .typeString('<strong><span style="color: #5C2B3D;"> Windev</span></strong>')
@@ -53,7 +53,7 @@ typewriter
 .deleteChars(37)
 .typeString('<span style="color: #bf1e2e;"> I\'m Laurent Jouron, </span>')
 .pauseFor(1000)
-.typeString('<strong><span>APPLICATION DEVELOPER</span></strong>')
+.typeString('<strong><span style="color: #333333;">APPLICATION DEVELOPER</span></strong>')
 .start()
 
 // Animation Contact
