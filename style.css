@@ -841,7 +841,7 @@ h1 {
 
 .b6 {
     width: 60%;
-    background: ##D25836;
+    background: #D25836;
 }
 
 .label-skill {
@@ -1085,7 +1085,7 @@ h1 {
 .txt-par {
     font-size: 30px;
     font-weight: bold;
-    color: var(--color3);
+    color: var(--color1);
     margin: 0 50px;
 }
 
@@ -1154,7 +1154,7 @@ h1 {
     position: relative;
     display: flex;
     margin-bottom: 45px;
-    color: var(--color3);<br>
+    color: var(--color3);
 }
 
 .form-groupe label {

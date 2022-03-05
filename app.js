@@ -19,9 +19,7 @@ if(window.matchMedia('(max-width: 1300px)')) {
 
 // Animation écriture
 const txtAnim = document.querySelector('.txt-animation');
-let typewriter = new Typewriter(txtAnim,  {
-    loop: false,
-    deleteSpeed: 20
+let typewriter = new Typewriter(txtAnim, {loop: false, deleteSpeed: 20
 })
 
 typewriter 
@@ -76,7 +74,6 @@ const titre = document.querySelector('h1');
 const btn = document.querySelectorAll('.btn-acc')
 const btnMedias = document.querySelectorAll('.media')
 const btnRondAccueil = document.querySelector('.btn-rond')
-
 
 const TL1 = gsap.timeline({paused: true});
 
@@ -137,7 +134,6 @@ const scene2 = new ScrollMagic.Scene({
 // .addIndicators()
 .addTo(controller)
 
-
 // Vague 2
 const itemPortfolio2 = document.querySelectorAll('.vague2')
 
@@ -155,7 +151,6 @@ const scene3 = new ScrollMagic.Scene({
 // .addIndicators()
 .addTo(controller)
 
-
 // Vague 3
 const itemPortfolio3 = document.querySelectorAll('.vague3')
 
@@ -170,9 +165,9 @@ const scene4 = new ScrollMagic.Scene({
     reverse: false
 })
 .setTween(tlPortfolio3)
+
 // .addIndicators()
 .addTo(controller)
-
 
 // Animation range
 const sectionComp = document.querySelector('.section-range');
