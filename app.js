@@ -25,10 +25,10 @@ let typewriter = new Typewriter(txtAnim, {loop: false, deleteSpeed: 20
 typewriter 
 .pauseFor(1800)
 .changeDelay(19)
-.typeString('<span style="color: #bf1e2e;">Welcome on my website! </span>')
+.typeString('<span style="color: #B9B9B9;">Welcome on my website! </span>')
 .pauseFor(800)
 .deleteChars(24)
-.typeString('<span style="color: #333333;">I use : </span><strong><span style="color: #366C9C;"> Python</span></strong>')
+.typeString('<span style="color: #B9B9B9;">I use : </span><strong><span style="color: #366C9C;"> Python</span></strong>')
 .pauseFor(1000)
 .deleteChars(8)
 .typeString('<strong><span style="color: #5C2B3D;"> Windev</span></strong>')
@@ -49,9 +49,9 @@ typewriter
 .typeString('<strong><span style="color: #C84D9B;"> Microsoft office</span></strong>')
 .pauseFor(1000)
 .deleteChars(37)
-.typeString('<span style="color: #bf1e2e;"> I\'m Laurent Jouron, </span>')
+.typeString('<span style="color: #B9B9B9;"> I\'m Laurent Jouron, </span>')
 .pauseFor(1000)
-.typeString('<strong><span style="color: #333333;">APPLICATION DEVELOPER</span></strong>')
+.typeString('<strong><span style="color: #EF9700;">APPLICATION DEVELOPER</span></strong>')
 .start()
 
 // Animation Contact

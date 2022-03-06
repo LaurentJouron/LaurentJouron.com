@@ -213,18 +213,18 @@ body {
     background-size: cover;
     background-position: right;
     height: 100vh;
-    min-height: 900px;
+    min-height: 800px;
     width: calc(100% - 300px);
     margin-left: auto;
     position: relative;
 }
 
 h1 {
-    font-size: 90px;
-    color: var(--color3);
-    font-family: 'Abril Fatface', sans-serif;
+    font-size: 80px;
+    color: var(--color8);
+    font-family: 'Abril fatface', sans-serif;
     margin: 0 60px;
-    padding-top: 190px;
+    padding-top: 100px;
 }
 
 .txt-animation {
@@ -252,7 +252,7 @@ h1 {
 
 .btn-acc2 {
     background: transparent;
-    border: 2px solid #333333;
+    border: 2px solid var(--color3);
     color: var(--color3);
     font-weight: 700;
 }
@@ -1074,7 +1074,7 @@ h1 {
 .section-parallax {
     width: 100%;
     height: 250px;
-    background: url(pictures/fond_accueil.jpg) no-repeat right / cover fixed;
+    background: url(pictures/fond_parallax.jpg) no-repeat right / cover fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1085,7 +1085,7 @@ h1 {
 .txt-par {
     font-size: 30px;
     font-weight: bold;
-    color: var(--color1);
+    color: var(--color6);
     margin: 0 50px;
 }
 
