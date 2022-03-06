@@ -221,7 +221,7 @@ body {
 
 h1 {
     font-size: 80px;
-    color: var(--color8);
+    color: #FEEA9A;
     font-family: 'Abril fatface', sans-serif;
     margin: 0 60px;
     padding-top: 100px;
@@ -1085,7 +1085,7 @@ h1 {
 .txt-par {
     font-size: 30px;
     font-weight: bold;
-    color: var(--color6);
+    color: #F4F4F6;
     margin: 0 50px;
 }
 
