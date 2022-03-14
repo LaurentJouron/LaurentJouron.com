@@ -720,7 +720,7 @@ h1 {
     background: #FF1FCA;
 }
 .b4 {
-    width: 80%;
+    width: 50%;
     background: #006EBF;
 }
 .b5 {
@@ -731,6 +731,14 @@ h1 {
     width: 60%;
     background: #D25836;
 }
+.b7 {
+    width: 60%;
+    background: #21A366;
+}
+.b8 {
+    width: 10%;
+    background: #103E2E;
+}
 .label-skill {
     font-size: 24px;
 }
@@ -738,7 +746,7 @@ h1 {
 /* Medias Range */
 @media screen and (max-width: 1400px) {
     .grille-skill{
-        grid-template: repeat(3,80px) / repeat(2,450px);
+        grid-template: repeat(4,80px) / repeat(2,450px);
     }
     .barre-grises {
         width: 450px;
@@ -831,7 +839,7 @@ h1 {
     align-items: center;
 }
 .boule-ico img {
-    width: 28px;
+    width: 48px;
 }
 .flex-cont-bloc-exp {
     width: 800px;
