@@ -189,7 +189,7 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    background: url(pictures/fond_accueil.jpg);
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(255,184,170,0)), url(pictures/fond_accueil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -215,10 +215,10 @@ h1 {
     width: 200px;
     height: 50px;
     text-decoration: none;
-    background: var(--color3);
+    background: #FEEA9A;
     justify-content: center;
     align-items: center;
-    color: var(--color4);
+    color: var(--color3);
     margin: 10px 0 0 0;
     border-radius: 2px;
     font-size: 18px;
@@ -228,8 +228,8 @@ h1 {
 }
 .btn-acc2 {
     background: transparent;
-    border: 2px solid var(--color3);
-    color: var(--color3);
+    border: 2px solid #FEEA9A;
+    color: #FEEA9A;
     font-weight: 700;
 }
 .medias {
