@@ -685,7 +685,7 @@ h1 {
 }
 .grille-skill {
     display: grid;
-    grid-template: repeat(3,80px) / repeat(2, 500px);
+    grid-template: repeat(4,80px) / repeat(2, 500px);
     grid-gap: 50px;
     padding-left: 300px;
 }
@@ -761,7 +761,7 @@ h1 {
         padding-left: 0;
     }
     .grille-skill {
-        grid-template: repeat(6,80px) / 600px;
+        grid-template: repeat(8,80px) / 600px;
         padding-left: 0;
     }
     .barre-grises {
@@ -771,7 +771,7 @@ h1 {
 
 @media screen and (max-width: 700px) {
     .grille-skill {
-        grid-template: repeat(6,80px) / 400px;
+        grid-template: repeat(8,80px) / 400px;
     }
     .barre-grises {
         width: 400px
@@ -791,7 +791,7 @@ h1 {
     }
 
     .grille-skill{
-        grid-template: repeat(6,80px) / 300px;
+        grid-template: repeat(8,80px) / 300px;
         grid-gap: 40px;
     }
     .barre-grises {
