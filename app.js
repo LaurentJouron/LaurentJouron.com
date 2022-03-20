@@ -31,7 +31,7 @@ typewriter
 .typeString('<span style="color: #FEEA9A;">I use : </span><strong><span style="color: #366C9C;"> Python</span></strong>')
 .pauseFor(1000)
 .deleteChars(8)
-.typeString('<strong><span style="color: #5C2B3D;"> Windev</span></strong>')
+.typeString('<strong><span style="color: #E5581F;"> Windev</span></strong>')
 .pauseFor(1000)
 .deleteChars(6)
 .typeString('<strong><span style="color: #006EBF;"> SQL</span></strong>')
