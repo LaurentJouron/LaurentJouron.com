@@ -1,0 +1,558 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', 'sans-serif';
+    background-color: #f7f7f7;
+}
+
+
+
+/* Navigation */
+
+#navigation {
+    position: fixed;
+    z-index: 40;
+    width: 100%;
+    background-color: #f0Ead6;
+    text-align: center;
+    height: 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 55% 70%, 50% 90%, 45% 70%, 0% 70%);
+    transition: all 0.4s ease-in-out;
+    /* anim GS */
+    opacity: 0;
+}
+
+#navigation a {
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 1rem 5rem;
+    line-height: 6.5rem;
+    font-family: 'Kaushan Script';
+    margin: auto;
+    color: #373737;
+}
+
+
+#navigation a:active {
+    font-size: 4rem;
+}
+
+.icon {
+    display: none;
+}
+
+
+/* Header accueil */
+
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url("../ressources/imgBackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    color: #f7f7f7;
+    position: relative;
+    top: 30rem;
+    font-family: 'Kaushan Script';
+    font-size: 11rem;
+    /* Anim GS */
+    opacity: 0;
+}
+
+header h2 {
+    text-align: center;
+    margin: 0;
+    color: #f7f7f7;
+    position: relative;
+    top: 32rem;
+    font-family: 'Abril Fatface';
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    /* Anim GS */
+    opacity: 0;
+}
+
+header #arrow {
+    color: black;
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    line-height: 8rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 0 0 #fff;
+    animation: pulse 1.3s infinite;
+    /* Anim GS */
+    opacity: 0;
+}
+
+
+@keyframes pulse {
+    to
+    {
+        box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.01);
+    }
+}
+
+/* première section About avec 3 photos */
+
+
+.section-about {
+    background-color: #f7f7f7;
+    padding-bottom: 10rem;
+}
+
+.centerH {
+    text-align: center!important;
+    margin-bottom: 8rem!important;
+}
+
+.titreAbout {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, #373737, #C0b283);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    padding-top: 5rem;
+
+}
+
+.row {
+    max-width:114rem;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+}
+
+.sousTitreAbout {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem!important;
+}
+
+.paragraphe {
+    font-size: 1.9rem;
+}
+
+.paragraphe:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+
+.composition {
+    position: relative;
+}
+
+
+.composition_photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+}
+
+.composition_photo--1 {
+    left: 0;
+    top: -2rem;
+}
+.composition_photo--2 {
+    right: 0;
+    top: 2rem;
+}
+.composition_photo--3 {
+    left: 20%;
+    top: 10rem;
+}
+
+
+.composition_photo:hover {
+    outline: 1.5rem solid #C0b283;
+    transform: scale(1.05) translateY(-0.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0,0,0,0.5);
+    z-index:30;
+}
+.composition:hover .composition_photo:not(:hover) {
+    transform: scale(0.95);
+}
+
+
+/* Section Tarifs */
+
+
+#tarifs {
+    border-top: 1px dashed rgb(209,174,59);
+}
+
+
+#tarifs h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    background: #f7f7f7;
+    background-image: linear-gradient(to right, #000000, rgb(255,239,185));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+    padding-top: 4rem;
+}
+
+#containerFlex {
+    background: #f7f7f7;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+
+
+.flexCards {
+    width: 30rem;
+    height: 45rem;
+    margin: 2rem;
+    transition: all 0.2s ease-in;
+   
+}
+
+.flexCards:nth-child(1) {
+    border: 1px dashed #373737;
+}
+.flexCards:nth-child(2) {
+    border: none;
+}
+.flexCards:nth-child(3) {
+    border: 1px dashed #373737;
+}
+
+.head {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    color: #373737;
+    background: #F0Ead6;
+}
+
+.head p {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 10rem;
+    font-family: 'Abril Fatface';
+}
+
+.contenu {
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+    background: #f0Ead6;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.prix {
+    margin: 0;
+    height: 11rem;
+    background: #f0Ead6;
+}
+
+.prix p {
+    margin: 0 auto;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 11rem;
+    font-family: 'Abril Fatface';
+}
+
+
+.flexCards:nth-child(2) .head {
+    background: #373737;
+    color: #FFD700;
+}
+.flexCards:nth-child(2) .contenu {
+    background: #373737;
+    color: #FFD700;
+}
+.flexCards:nth-child(2) .prix {
+    background: #373737;
+    color: #FFD700;
+}
+
+
+.flexCards:hover {
+    transform: scale(1.05);
+}
+
+
+/* Section Phrases Slide */
+
+
+
+#phrasesSlide {
+    height: 60rem;
+    width: 100%;
+    border-top: 1px dashed rgb(209,174,59);
+    background: url(../ressources/sectionBg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.cadre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110rem;
+    height: 40rem;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+    background: rgba(55,55,55,0.3);
+    color: white;
+}
+
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -2.25rem;
+   
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 45px;
+    
+}
+
+.carousel .changeHidden{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 13rem;
+    line-height: 13rem;
+    width: 100rem;
+    overflow: hidden;
+
+}
+
+.carousel .changeHidden .contenant {
+
+    position: relative;
+    animation: carousel 8s ease-in-out infinite;
+
+}
+
+.carousel .changeHidden .element {
+    font-weight: 700;
+    font-size: 8rem;
+
+}
+
+@keyframes carousel {
+    0%, 20% {
+        transform: translateY(0);
+    }
+    25%, 45% {
+        transform: translateY(-13rem);
+    }
+    50%, 70% {
+        transform: translateY(-26rem);
+    }
+    75%, 95% {
+        transform: translateY(-39rem);
+    }
+    100% {
+        transform: translateY(-52rem);
+    }
+}
+
+/* Section Équipe */
+
+#equipe {
+    height: 72rem;
+    width: 100%;
+    background: #f7f7f7;
+    border-top: 1px dashed rgb(209,174,59);
+    padding-bottom: 10rem;
+}
+
+
+#equipe h3 {
+    text-align: center;
+    font-size: 5.5rem;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+}
+
+#equipe p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.containerFlexTeam {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    height: 50rem;
+    width: 40rem;
+    background: #f7f7f7;
+    margin: 5rem;
+    overflow: hidden;
+}
+
+
+.sousTxt {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background: rgb(211,203,178);
+}
+
+.sousTxt h4 {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+.teamPic {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.pic1 {
+    background:url("../ressources/barber1.jpg");
+    background-position: 35% 15%;
+}
+.pic1:hover{
+    transform: scale(1.2);
+}
+.pic2 {
+    background:url("../ressources/barber2.jpg");
+    background-position: 50% 40%;
+}
+.pic2:hover{
+    transform: scale(1.2);
+}
+.pic3 {
+    background:url("../ressources/barber3.jpg");
+    background-position: center;
+}
+.pic3:hover{
+    transform: scale(1.2);
+}
+
+/* Section Contact */
+
+
+#contact {
+    height: 20rem;
+    width: 100%;
+    border-top: 1px dashed rgb(209,174,59);
+}
+
+#contact h2 {
+    font-size: 10rem;
+    text-align: center;
+}
+
+
+#contact h3 {
+    text-align: center;
+    font-size: 5.5rem;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.flexMedias {
+    display: flex;
+    justify-content: center;
+}
+
+
+.medias {
+    font-size: 10rem;
+    margin: 2rem;
+}
+
+.medias a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 1300px) {
+    footer {
+        padding-left: 0px;
+    }
+}
+#imgCopy {
+	width: 15px;
+	height: 15px;
+}
