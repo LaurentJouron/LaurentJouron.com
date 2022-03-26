@@ -189,7 +189,7 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(255,184,170,0)), url(pictures/fond_accueil.jpg);
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(255,184,170,0)), url(../ressources/fond_accueil.jpg);;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -204,11 +204,11 @@ h1 {
     color: #FEEA9A;
     font-family: 'Abril fatface', sans-serif;
     margin: 0 60px;
-    padding-top: 130px;
+    padding-top: 120px;
 }
 .txt-animation {
     font-size: 30px;
-    margin: 10px 0 10px 60px;
+    margin: 20px 0 10px 60px;
 }
 .btn-acc {
     display: inline-flex;
@@ -219,12 +219,12 @@ h1 {
     justify-content: center;
     align-items: center;
     color: var(--color3);
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     border-radius: 2px;
     font-size: 18px;
 }
 .btn-acc1 {
-    margin: 10px 0 0 60px;
+    margin: 20px 0 0 60px;
 }
 .btn-acc2 {
     background: transparent;
@@ -248,12 +248,8 @@ h1 {
     align-items: center;
     cursor: pointer;
 }
-.media2 {
-    background: transparent;
-    border: 2px solid var(--color4);
-}
 .icone-medias {
-    width: 60px;
+    width: 62px;
 }
 .btn-rond {
     width: 70px;
@@ -350,7 +346,7 @@ h1 {
         height: 40px;
     }
     .icone-medias {
-        width: 20px;
+        width: 42px;
     }
 }
 
@@ -395,7 +391,7 @@ h1 {
         margin-left: 5px;
     }
     .icone-medias {
-        width: 20px;
+        width: 42px;
     }
 }
 
@@ -932,7 +928,7 @@ h1 {
 .section-parallax {
     width: 100%;
     height: 250px;
-    background: url(pictures/fond_parallax.jpg) no-repeat right / cover fixed;
+    background: url(ressources/fond_parallax.jpg) no-repeat right / cover fixed;
     display: flex;
     justify-content: center;
     align-items: center;
