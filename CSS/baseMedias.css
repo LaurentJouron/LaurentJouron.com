@@ -6,6 +6,7 @@
         padding: 1rem 5rem;
     }
 }
+
 @media (max-width: 768px) {
     #navigation a:not(:nth-child(5)) {
         display: none;
@@ -79,6 +80,7 @@
         top: 70%;
     }
 }
+
 @media (max-width: 768px) {
     header {
         height: 73vh;
@@ -209,7 +211,6 @@
 }
 
 /* Medias Tarifs */
-
 @media (max-width: 768px) {
     #tarifs h2 {
         font-size: 5rem;
@@ -222,6 +223,7 @@
         padding-bottom: 1rem;
     }
 }
+
 /* MEDIAS Carousel Txt */
 @media (max-width: 1200px) {
     #phrasesSlide {
@@ -240,6 +242,7 @@
         width: 100rem;
     }
 }
+
 @media (max-width: 992px) {
     .cadre {
         height: 20rem;
@@ -287,6 +290,7 @@
         height: 70rem;
     }
 }
+
 @media (max-width: 992px) {
     #equipe {
         height: 65rem
@@ -339,10 +343,7 @@
 }
 
 /* Medias Contact */
-
-
 @media (max-width:768px) {
-
     #contact {
         height: 20rem;
     }
@@ -356,11 +357,9 @@
         font-size: 7rem;
         margin: 2rem;
     }
-
 }
 
 @media (max-width: 425px) {
-
     #contact h2 {
         font-size: 5rem;
     }
@@ -370,6 +369,4 @@
     .medias {
         font-size: 5rem;
     }
-
-
 }

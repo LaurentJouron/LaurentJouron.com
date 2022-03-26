@@ -479,15 +479,15 @@ header #arrow {
 }
 
 .pic1 {
-    background:url("../ressources/barber1.jpg");
-    background-position: 35% 15%;
+    background:url("../ressources/YannickKraemer.jpg");
+    background-position: 40% 40%;
 }
 .pic1:hover{
     transform: scale(1.2);
 }
 .pic2 {
-    background:url("../ressources/barber2.jpg");
-    background-position: 50% 40%;
+    background:url("../ressources/JacquesDessange.jpg");
+    background-position: 20% 10%;
 }
 .pic2:hover{
     transform: scale(1.2);
