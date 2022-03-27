@@ -1,23 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color1: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
+    --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
+    --color3: #333333;  /* Gris rgb(51 51 51) */
+    --color4: #f1f1f1;  /* Gris très clair rgb(241 241 241) */
+    --color5: #002D5F;  /* Bleu foncé Expressions Parfumées rgb(0 45 95) */
+    --color6: #EF9700;  /* Orange Camille Albane rgb(239 151 0) */
+    --color7: #F6D14F;  /* Jaune Orangé Coiffirst rgb(246 209 76) */
+    --color8: #B9B9B9;  /* gris Dessange rgb(185 185 185) */
+}
 html {
     font-size: 62.5%;
 }
-
-
 body {
     margin: 0;
     font-family: 'Lato', 'sans-serif';
-    background-color: #f7f7f7;
+    background-color: var(--color4);
 }
 
-
-
 /* Navigation */
-
 #navigation {
     position: fixed;
     z-index: 40;
     width: 100%;
-    background-color: #f0Ead6;
+    background-color: var(--color3);
     text-align: center;
     height: 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 55% 70%, 50% 90%, 45% 70%, 0% 70%);
@@ -25,7 +35,6 @@ body {
     /* anim GS */
     opacity: 0;
 }
-
 #navigation a {
     text-decoration: none;
     font-size: 3rem;
@@ -33,36 +42,29 @@ body {
     line-height: 6.5rem;
     font-family: 'Kaushan Script';
     margin: auto;
-    color: #373737;
+    color: var(--color4);
 }
-
-
 #navigation a:active {
     font-size: 4rem;
 }
-
 .icon {
     display: none;
 }
 
-
 /* Header accueil */
-
-
 header {
     height: 100vh;
     width: 100%;
-    background: url("../ressources/imgBackground.jpg");
+    background: linear-gradient(to right bottom, rgba(4, 4, 56, 0.7), rgba(4, 4, 56, 0.7)),url("../ressources/salon_coiffirst.jpg");
     background-size: cover;
     background-position: center;
 }
 
 h1 {
     text-align: center;
-    margin: 0;
-    color: #f7f7f7;
+    color: #FEEA9A;
     position: relative;
-    top: 30rem;
+    top: 25rem;
     font-family: 'Kaushan Script';
     font-size: 11rem;
     /* Anim GS */
@@ -71,10 +73,9 @@ h1 {
 
 header h2 {
     text-align: center;
-    margin: 0;
-    color: #f7f7f7;
+    color: #FEEA9A;
     position: relative;
-    top: 32rem;
+    top: 28rem;
     font-family: 'Abril Fatface';
     font-size: 5rem;
     letter-spacing: 0.2rem;
@@ -324,9 +325,6 @@ header #arrow {
 
 
 /* Section Phrases Slide */
-
-
-
 #phrasesSlide {
     height: 60rem;
     width: 100%;
@@ -336,8 +334,6 @@ header #arrow {
     background-position: center;
     position: relative;
 }
-
-
 .cadre {
     position: absolute;
     top: 50%;
@@ -349,27 +345,21 @@ header #arrow {
     background: rgba(55,55,55,0.3);
     color: white;
 }
-
 .centre {
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
-    margin-top: -2.25rem;
-   
+    margin-top: -2.25rem;  
 }
-
 .carousel {
     position: relative;
     width: 100%;
     height: 4.5rem;
     text-align: center;
-    line-height: 45px;
-    
+    line-height: 45px;   
 }
-
 .carousel .changeHidden{
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -379,20 +369,14 @@ header #arrow {
     line-height: 13rem;
     width: 100rem;
     overflow: hidden;
-
 }
-
 .carousel .changeHidden .contenant {
-
     position: relative;
     animation: carousel 8s ease-in-out infinite;
-
 }
-
 .carousel .changeHidden .element {
     font-weight: 700;
     font-size: 8rem;
-
 }
 
 @keyframes carousel {
@@ -414,7 +398,6 @@ header #arrow {
 }
 
 /* Section Équipe */
-
 #equipe {
     height: 72rem;
     width: 100%;
@@ -446,7 +429,6 @@ header #arrow {
     align-items: center;
     justify-content: center;
 }
-
 .team {
     height: 50rem;
     width: 40rem;
@@ -454,21 +436,22 @@ header #arrow {
     margin: 5rem;
     overflow: hidden;
 }
-
-
 .sousTxt {
     width: 100%;
     height: 20%;
     text-align: center;
     position: relative;
     z-index: 2;
-    background: rgb(211,203,178);
+    background: #485563;
 }
-
 .sousTxt h4 {
+    color: #f1f1f1;
     font-size: 2rem;
     margin: 0;
     padding-top: 2rem;
+}
+.sousTxt p {
+    color: #f1f1f1;
 }
 .teamPic {
     width: 100%;
@@ -493,7 +476,8 @@ header #arrow {
     transform: scale(1.2);
 }
 .pic3 {
-    background:url("../ressources/barber3.jpg");
+    background:url("../ressources/eric_pfalzgraf.jpg");
+    background-repeat: no-repeat;
     background-position: center;
 }
 .pic3:hover{
