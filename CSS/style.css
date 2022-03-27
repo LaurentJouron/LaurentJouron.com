@@ -928,7 +928,11 @@ h1 {
 .section-parallax {
     width: 100%;
     height: 250px;
+<<<<<<< HEAD
     background-image: url(../ressources/fond_parallax.jpg) no-repeat right / cover fixed;
+=======
+    background: url(../ressources/fond_parallax.jpg) no-repeat right / cover fixed;
+>>>>>>> 29c694c0cb69dc9261bb015729cab81086688b9e
     display: flex;
     justify-content: center;
     align-items: center;
