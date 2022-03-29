@@ -55,11 +55,10 @@ body {
 header {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to right bottom, rgba(4, 4, 56, 0.7), rgba(4, 4, 56, 0.7)),url("../ressources/salon_coiffirst.jpg");
+    background: linear-gradient(to bottom, rgba(4, 4, 56, 0), rgba(4, 4, 56, 0.7)),url("../ressources/salon_coiffirst.jpg");
     background-size: cover;
     background-position: center;
 }
-
 h1 {
     text-align: center;
     color: #FEEA9A;
@@ -70,7 +69,6 @@ h1 {
     /* Anim GS */
     opacity: 0;
 }
-
 header h2 {
     text-align: center;
     color: #FEEA9A;
@@ -82,7 +80,6 @@ header h2 {
     /* Anim GS */
     opacity: 0;
 }
-
 header #arrow {
     color: black;
     height: 8rem;
@@ -103,7 +100,6 @@ header #arrow {
     opacity: 0;
 }
 
-
 @keyframes pulse {
     to
     {
@@ -112,18 +108,14 @@ header #arrow {
 }
 
 /* première section About avec 3 photos */
-
-
 .section-about {
     background-color: #f7f7f7;
     padding-bottom: 10rem;
 }
-
 .centerH {
     text-align: center!important;
     margin-bottom: 8rem!important;
 }
-
 .titreAbout {
     font-size: 4rem;
     text-transform: uppercase;
@@ -135,53 +127,40 @@ header #arrow {
     color: transparent;
     letter-spacing: .2rem;
     padding-top: 5rem;
-
 }
-
 .row {
     max-width:114rem;
     margin: 0 auto;
 }
-
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
-
 .row [class^="col-"] {
     float: left;
 }
-
 .row [class^="col-"]:not(:last-child) {
     margin-right: 6rem;
 }
-
 .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2);
 }
-
 .sousTitreAbout {
     font-size: 1.9rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem!important;
 }
-
 .paragraphe {
     font-size: 1.9rem;
 }
-
 .paragraphe:not(:last-child) {
     margin-bottom: 3rem;
 }
-
-
 .composition {
     position: relative;
 }
-
-
 .composition_photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
@@ -191,7 +170,6 @@ header #arrow {
     transition: all .2s;
     outline-offset: 2rem;
 }
-
 .composition_photo--1 {
     left: 0;
     top: -2rem;
@@ -204,8 +182,6 @@ header #arrow {
     left: 20%;
     top: 10rem;
 }
-
-
 .composition_photo:hover {
     outline: 1.5rem solid #C0b283;
     transform: scale(1.05) translateY(-0.5rem);
@@ -216,15 +192,10 @@ header #arrow {
     transform: scale(0.95);
 }
 
-
 /* Section Tarifs */
-
-
 #tarifs {
     border-top: 1px dashed rgb(209,174,59);
 }
-
-
 #tarifs h2 {
     text-align: center;
     font-size: 5.5rem;
@@ -236,7 +207,6 @@ header #arrow {
     margin: 0;
     padding-top: 4rem;
 }
-
 #containerFlex {
     background: #f7f7f7;
     width: 100%;
@@ -246,16 +216,12 @@ header #arrow {
     justify-content: center;
     padding-bottom: 8rem;
 }
-
-
 .flexCards {
     width: 30rem;
     height: 45rem;
     margin: 2rem;
     transition: all 0.2s ease-in;
-   
 }
-
 .flexCards:nth-child(1) {
     border: 1px dashed #373737;
 }
@@ -265,7 +231,6 @@ header #arrow {
 .flexCards:nth-child(3) {
     border: 1px dashed #373737;
 }
-
 .head {
     width: 100%;
     height: 10rem;
@@ -273,14 +238,12 @@ header #arrow {
     color: #373737;
     background: #F0Ead6;
 }
-
 .head p {
     margin: 0;
     font-size: 3rem;
     line-height: 10rem;
     font-family: 'Abril Fatface';
 }
-
 .contenu {
     margin: auto;
     text-align: center;
@@ -289,13 +252,11 @@ header #arrow {
     height: 6rem;
     line-height: 6rem;
 }
-
 .prix {
     margin: 0;
     height: 11rem;
     background: #f0Ead6;
 }
-
 .prix p {
     margin: 0 auto;
     font-size: 5rem;
@@ -303,8 +264,6 @@ header #arrow {
     line-height: 11rem;
     font-family: 'Abril Fatface';
 }
-
-
 .flexCards:nth-child(2) .head {
     background: #373737;
     color: #FFD700;
@@ -317,12 +276,9 @@ header #arrow {
     background: #373737;
     color: #FFD700;
 }
-
-
 .flexCards:hover {
     transform: scale(1.05);
 }
-
 
 /* Section Phrases Slide */
 #phrasesSlide {
@@ -405,8 +361,6 @@ header #arrow {
     border-top: 1px dashed rgb(209,174,59);
     padding-bottom: 10rem;
 }
-
-
 #equipe h3 {
     text-align: center;
     font-size: 5.5rem;
@@ -415,13 +369,11 @@ header #arrow {
     color: transparent;
     margin-bottom: 0;
 }
-
 #equipe p {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
-
 .containerFlexTeam {
     width: 100%;
     height: 60rem;
@@ -460,7 +412,6 @@ header #arrow {
     z-index: 1;
     transition: all 0.4s ease-in-out;
 }
-
 .pic1 {
     background:url("../ressources/YannickKraemer.jpg");
     background-position: 40% 40%;
@@ -485,20 +436,15 @@ header #arrow {
 }
 
 /* Section Contact */
-
-
 #contact {
     height: 20rem;
     width: 100%;
     border-top: 1px dashed rgb(209,174,59);
 }
-
 #contact h2 {
     font-size: 10rem;
     text-align: center;
 }
-
-
 #contact h3 {
     text-align: center;
     font-size: 5.5rem;
@@ -506,19 +452,14 @@ header #arrow {
     -webkit-background-clip: text;
     color: transparent;
 }
-
-
 .flexMedias {
     display: flex;
     justify-content: center;
 }
-
-
 .medias {
     font-size: 10rem;
     margin: 2rem;
 }
-
 .medias a {
     text-decoration: none;
     color: black;
