@@ -189,7 +189,7 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(255,184,170,0)), url(../ressources/fond_accueil.jpg);;
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/fond_accueil.jpg);;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
