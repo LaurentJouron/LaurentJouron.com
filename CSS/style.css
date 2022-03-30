@@ -202,7 +202,7 @@ body {
 h1 {
     font-size: 80px;
     color: #FEEA9A;
-    font-family: 'Abril fatface', sans-serif;
+    font-family: 'Kaushan Script';
     margin: 0 60px;
     padding-top: 120px;
 }
@@ -426,7 +426,9 @@ h1 {
     z-index: -1;
 }
 .titre-pres {
-    font-size: 40px;
+    font-family: 'Kaushan Script';
+    color: #FEEA9A;
+    font-size: 60px;
     text-align: center;
     margin: 50px 0 70px 0;
     padding-left: 300px;
@@ -450,13 +452,16 @@ h1 {
 .pres-gauche h3 {
     text-align: center;
     font-size: 25px;
+    color: #FEEA9A;
     letter-spacing: 2px;
 }
 .pres-gauche hr {
     width: 60px;
+    color: #FEEA9A;
     margin: 0 auto 20px auto;
 }
 .pres-gauche p {
+    color: #FEEA9A;
     text-align: justify;
 }
 .pres-droite {
@@ -467,14 +472,16 @@ h1 {
 }
 .liste-presentation {
     list-style-type: none;
+    color: #FEEA9A;
     padding: 10px 0 50px 110px;
 }
 .chiffre-style {
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 30px;
+    font-family: 'Kaushan Script';
+    font-size: 25px;
 }
 .txt-liste {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Kaushan Script';
     display: inline;
 }
 
@@ -485,6 +492,8 @@ h1 {
         padding-left: 0px;
     }
     .titre-pres {
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
         padding-left: 0px;
     }
 }
@@ -530,17 +539,25 @@ h1 {
         margin-bottom: 70px;
     }
     .titre-pres {
-        font-size: 24px;
+        font-size: 35px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
         margin: 0 10px
     }
     .pres-gauche h3 {
         font-size: 20px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
     }
     .chiffre-style {
         font-size: 30px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
     }
     .txt-liste {
         font-size: 17px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
     }
 }
 
@@ -551,7 +568,9 @@ h1 {
 .titre-port {
     text-align: center;
     padding: 50px 0;
-    font-size: 50px;
+    font-family: 'Kaushan Script';
+    color: var(--color3);
+    font-size: 70px;
     padding-left: 300px;
 }
 .cont-portfolio {
@@ -629,7 +648,8 @@ h1 {
         padding-left: 0;
     }
     .titre-port {
-        font-size: 40px;
+        font-size: 50px;
+        font-family: 'Kaushan Script';
         margin: 50px 0 70px;
         padding-left: 0;
     }
@@ -674,8 +694,10 @@ h1 {
     position: relative;
 }
 .titre-exp {
-    font-size: 40px;
+    font-size: 70px;
     text-align: center;
+    font-family: 'Kaushan Script';
+    color: #FEEA9A;
     margin: 80px 0 90px 0;
     padding-left: 300px;
 }
@@ -700,7 +722,7 @@ h1 {
     bottom: 0;
     width: 500px;
     height: 15px;
-    background: rgb(216,216,216);
+    background: rgb(210,210,210);
     border-radius: 5px;
 }
 .b1 {
@@ -736,7 +758,14 @@ h1 {
     background: #103E2E;
 }
 .label-skill {
-    font-size: 24px;
+    font-size: 27px;
+    font-family: 'Kaushan Script';
+    color: #FEEA9A;
+}
+.number-skill {
+    font-size: 17px;
+    font-family: 'Kaushan Script';
+    color: #FEEA9A;
 }
 
 /* Medias Range */
@@ -752,6 +781,7 @@ h1 {
 @media screen and (max-width: 1300px) {
     .section-range {
         padding-left: 0;
+        color: #FEEA9A;
     }
     .titre-exp {
         padding-left: 0;
@@ -784,6 +814,8 @@ h1 {
     }
     .label-skill {
         font-size: 20px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
     }
 
     .grille-skill{
@@ -805,7 +837,8 @@ h1 {
 .titre-travail-exp {
     text-align: center;
     margin: 70px 0;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Kaushan Script';
     color: var(--color3);
 }
 .cont-exp-travail {
