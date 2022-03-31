@@ -4,7 +4,7 @@
     padding: 0;
 }
 :root {
-    --color1: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
+    --color1: #FEEA9A;  /* Couleur de la police d'écriture rgb(254, 234, 154)
     --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
     --color3: #333333;  /* Gris rgb(51 51 51) */
     --color4: #f1f1f1;  /* Gris très clair rgb(241 241 241) */
@@ -55,13 +55,13 @@ body {
 header {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(4, 4, 56, 0), rgba(4, 4, 56, 0.7)),url("../ressources/salon_coiffirst.jpg");
+    background: linear-gradient(to bottom, rgba(4, 4, 56, 0.05), rgba(4, 4, 56, 0.8)),url("../ressources/salon_coiffirst.jpg");
     background-size: cover;
     background-position: center;
 }
 h1 {
     text-align: center;
-    color: #FEEA9A;
+    color: var(--color1);
     position: relative;
     top: 25rem;
     font-family: 'Kaushan Script';
@@ -71,10 +71,10 @@ h1 {
 }
 header h2 {
     text-align: center;
-    color: #FEEA9A;
+    color: var(--color1);
     position: relative;
     top: 28rem;
-    font-family: 'Abril Fatface';
+    font-family: 'Kaushan Script';
     font-size: 5rem;
     letter-spacing: 0.2rem;
     /* Anim GS */
@@ -93,7 +93,7 @@ header #arrow {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background: white;
+    background: #FEEA9A;;
     box-shadow: 0 0 0 0 #fff;
     animation: pulse 1.3s infinite;
     /* Anim GS */
@@ -115,13 +115,14 @@ header #arrow {
 .centerH {
     text-align: center!important;
     margin-bottom: 8rem!important;
+    font-family: 'Kaushan Script';
 }
 .titreAbout {
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    background-image: linear-gradient(to right, #373737, #C0b283);
+    background-image: linear-gradient(to right, var(--color3), #C0b283);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -148,6 +149,7 @@ header #arrow {
 }
 .sousTitreAbout {
     font-size: 1.9rem;
+    font-family: 'Kaushan Script';
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem!important;
@@ -204,6 +206,7 @@ header #arrow {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-family: 'Kaushan Script';
     margin: 0;
     padding-top: 4rem;
 }
@@ -242,7 +245,7 @@ header #arrow {
     margin: 0;
     font-size: 3rem;
     line-height: 10rem;
-    font-family: 'Abril Fatface';
+        font-family: 'Kaushan Script';
 }
 .contenu {
     margin: auto;
@@ -262,7 +265,7 @@ header #arrow {
     font-size: 5rem;
     text-align: center;
     line-height: 11rem;
-    font-family: 'Abril Fatface';
+        font-family: 'Kaushan Script';
 }
 .flexCards:nth-child(2) .head {
     background: #373737;
@@ -333,6 +336,7 @@ header #arrow {
 .carousel .changeHidden .element {
     font-weight: 700;
     font-size: 8rem;
+    font-family: 'Kaushan Script';
 }
 
 @keyframes carousel {
@@ -367,6 +371,7 @@ header #arrow {
     background-image: linear-gradient(to right, #373737, #c0b283);
     -webkit-background-clip: text;
     color: transparent;
+    font-family: 'Kaushan Script';
     margin-bottom: 0;
 }
 #equipe p {
