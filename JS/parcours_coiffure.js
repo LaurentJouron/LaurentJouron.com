@@ -65,7 +65,7 @@ $("#arrow").click(function () {
 
 $(".liensNav:nth-child(1)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#accueil").offset().top + 50
+        scrollTop: $("#index.html").offset().top + 50
     },
         'slow');
 });
@@ -79,7 +79,7 @@ $(".liensNav:nth-child(2)").click(function () {
 
 $(".liensNav:nth-child(3)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#tarifs").offset().top - 50
+        scrollTop: $("#atouts").offset().top - 50
     },
         'slow');
 });

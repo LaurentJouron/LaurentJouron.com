@@ -61,20 +61,20 @@ header {
 }
 h1 {
     text-align: center;
+    font-family: 'Kaushan Script';
     color: #FEEA9A;
     position: relative;
     top: 25rem;
-    font-family: 'Kaushan Script';
     font-size: 11rem;
     /* Anim GS */
     opacity: 0;
 }
 header h2 {
     text-align: center;
+    font-family: 'Kaushan Script';
     color: #FEEA9A;
     position: relative;
     top: 28rem;
-    font-family: 'Abril Fatface';
     font-size: 5rem;
     letter-spacing: 0.2rem;
     /* Anim GS */
@@ -93,8 +93,8 @@ header #arrow {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    background: white;
-    box-shadow: 0 0 0 0 #fff;
+    background: #FEEA9A;
+    box-shadow: 0 0 0 0 #FEEA9A;
     animation: pulse 1.3s infinite;
     /* Anim GS */
     opacity: 0;
@@ -118,6 +118,7 @@ header #arrow {
 }
 .titreAbout {
     font-size: 4rem;
+    font-family: 'Kaushan Script';
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
@@ -148,6 +149,7 @@ header #arrow {
 }
 .sousTitreAbout {
     font-size: 1.9rem;
+    font-family: 'Kaushan Script';
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.5rem!important;
@@ -192,12 +194,13 @@ header #arrow {
     transform: scale(0.95);
 }
 
-/* Section Tarifs */
-#tarifs {
+/* Section atouts */
+#atouts {
     border-top: 1px dashed rgb(209,174,59);
 }
-#tarifs h2 {
+#atouts h2 {
     text-align: center;
+    font-family: 'Kaushan Script';
     font-size: 5.5rem;
     background: #f7f7f7;
     background-image: linear-gradient(to right, #000000, rgb(255,239,185));
@@ -240,9 +243,9 @@ header #arrow {
 }
 .head p {
     margin: 0;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 10rem;
-    font-family: 'Abril Fatface';
+    font-family: 'Kaushan Script';
 }
 .contenu {
     margin: auto;
@@ -262,7 +265,7 @@ header #arrow {
     font-size: 5rem;
     text-align: center;
     line-height: 11rem;
-    font-family: 'Abril Fatface';
+    font-family: 'Kaushan Script';
 }
 .flexCards:nth-child(2) .head {
     background: #373737;
@@ -364,6 +367,7 @@ header #arrow {
 #equipe h3 {
     text-align: center;
     font-size: 5.5rem;
+    font-family: 'Kaushan Script';
     background-image: linear-gradient(to right, #373737, #c0b283);
     -webkit-background-clip: text;
     color: transparent;
@@ -399,6 +403,7 @@ header #arrow {
 .sousTxt h4 {
     color: #f1f1f1;
     font-size: 2rem;
+    font-family: 'Kaushan Script';
     margin: 0;
     padding-top: 2rem;
 }
@@ -442,15 +447,19 @@ header #arrow {
     border-top: 1px dashed rgb(209,174,59);
 }
 #contact h2 {
-    font-size: 10rem;
     text-align: center;
+    font-family: 'Kaushan Script';
+    font-size: 10rem;
+        background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
 #contact h3 {
     text-align: center;
+    font-family: 'Kaushan Script';
     font-size: 5.5rem;
-    background-image: linear-gradient(to right, #373737, #c0b283);
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: var(--color3);
 }
 .flexMedias {
     display: flex;
@@ -470,6 +479,7 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 16px;
+    font-family: 'Kaushan Script';
     padding-bottom: 5px;
 }
 @media screen and (max-width: 1300px) {

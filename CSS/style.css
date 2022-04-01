@@ -189,7 +189,7 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/fond_accueil.jpg);;
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/arriere_plan_index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -969,9 +969,10 @@ h1 {
     border-bottom: 1px dashed var(--color3);
 }
 .txt-par {
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Kaushan Script';
     font-weight: bold;
-    color: #F4F4F6;
+    color: #FEEA9A;
     margin: 0 50px;
 }
 .txt-par:nth-child(1){
@@ -981,6 +982,8 @@ h1 {
 @media screen and (max-width: 1300px) {
     .txt-par {
         font-size: 25px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
         margin: 0 30px;
     }
     .txt-par:nth-child(1) {
@@ -991,6 +994,8 @@ h1 {
 @media screen and (max-width: 700px) {
     .txt-par {
         font-size: 22px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
         margin: 0 25px;
     }
 }
@@ -1001,6 +1006,8 @@ h1 {
     }
     .txt-par {
         font-size: 20px;
+        font-family: 'Kaushan Script';
+        color: #FEEA9A;
         margin: 20px 0px;
     }
 }
@@ -1013,7 +1020,8 @@ h1 {
 .section-contact h2 {
     text-align: center;
     color: var(--color3);
-    font-size: 48px;
+    font-size: 60px;
+    font-family: 'Kaushan Script';
     font-weight: 400;
     margin-bottom: 50px;
     padding: 70px 0 0 300px;
@@ -1120,6 +1128,7 @@ textarea:focus {
 footer {
     width: 100%;
     text-align: center;
+    font-family: 'Kaushan Script';
     padding-top: 100px;
     padding-left: 300px;
 }
