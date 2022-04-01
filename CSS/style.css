@@ -969,12 +969,9 @@ h1 {
     border-bottom: 1px dashed var(--color3);
 }
 .txt-par {
-<<<<<<< HEAD
-    font-size: 50px;
-=======
-    font-size: 60px;
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
     font-family: 'Kaushan Script';
+
+    font-size: 60px;
     font-weight: bold;
     color: #FEEA9A;
     margin: 0 50px;
@@ -985,11 +982,8 @@ h1 {
 
 @media screen and (max-width: 1300px) {
     .txt-par {
-<<<<<<< HEAD
         font-size: 25px;
-=======
         font-size: 60px;
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
         font-family: 'Kaushan Script';
         color: #FEEA9A;
         margin: 0 30px;
@@ -1002,11 +996,8 @@ h1 {
 
 @media screen and (max-width: 700px) {
     .txt-par {
-<<<<<<< HEAD
         font-size: 22px;
-=======
         font-size: 40px;
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
         font-family: 'Kaushan Script';
         color: #FEEA9A;
         margin: 0 25px;
@@ -1143,10 +1134,7 @@ footer {
     width: 100%;
     text-align: center;
     font-family: 'Kaushan Script';
-<<<<<<< HEAD
-=======
-    color: var(--color3);
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
+        color: var(--color3);
     padding-top: 100px;
     padding-left: 300px;
 }

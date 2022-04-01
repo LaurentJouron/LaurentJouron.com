@@ -60,33 +60,22 @@ header {
     background-position: center;
 }
 h1 {
-    text-align: center;
-<<<<<<< HEAD
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
-=======
     color: var(--color1);
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
+    text-align: center;
+    font-size: 11rem;
     position: relative;
     top: 25rem;
-    font-size: 11rem;
     /* Anim GS */
     opacity: 0;
 }
 header h2 {
-    text-align: center;
-<<<<<<< HEAD
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
-    position: relative;
-    top: 28rem;
-=======
     color: var(--color1);
+    text-align: center;
+    font-size: 5rem;
     position: relative;
     top: 28rem;
-    font-family: 'Kaushan Script';
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
-    font-size: 5rem;
     letter-spacing: 0.2rem;
     /* Anim GS */
     opacity: 0;
@@ -104,13 +93,8 @@ header #arrow {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-<<<<<<< HEAD
     background: #FEEA9A;
     box-shadow: 0 0 0 0 #FEEA9A;
-=======
-    background: #FEEA9A;;
-    box-shadow: 0 0 0 0 #fff;
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
     animation: pulse 1.3s infinite;
     /* Anim GS */
     opacity: 0;
@@ -263,11 +247,7 @@ header #arrow {
     margin: 0;
     font-size: 4rem;
     line-height: 10rem;
-<<<<<<< HEAD
     font-family: 'Kaushan Script';
-=======
-        font-family: 'Kaushan Script';
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
 }
 .contenu {
     margin: auto;
@@ -283,15 +263,11 @@ header #arrow {
     background: #f0Ead6;
 }
 .prix p {
-    margin: 0 auto;
+    font-family: 'Kaushan Script';
     font-size: 5rem;
     text-align: center;
+    margin: 0 auto;
     line-height: 11rem;
-<<<<<<< HEAD
-    font-family: 'Kaushan Script';
-=======
-        font-family: 'Kaushan Script';
->>>>>>> 2463bcc0efbf2cb62971960248991fbc6fcd661e
 }
 .flexCards:nth-child(2) .head {
     background: #373737;
