@@ -19,12 +19,14 @@ function colorHeader() {
                 liens[1].style.color = "#f1f1f1";
                 liens[2].style.color = "#f1f1f1";
                 liens[3].style.color = "#f1f1f1";
+                liens[4].style.color = "#f1f1f1";
             } else {
                 nav.style.background = "#333333";
                 liens[0].style.color = "#f1f1f1";
                 liens[1].style.color = "#f1f1f1";
                 liens[2].style.color = "#f1f1f1";
                 liens[3].style.color = "#f1f1f1";
+                liens[4].style.color = "#f1f1f1";
             }
             // second else pour mettre la nav en clair et bloqué l'anim du dessus
         } else {
@@ -33,6 +35,7 @@ function colorHeader() {
             liens[1].style.color = "#f1f1f1";
             liens[2].style.color = "#f1f1f1";
             liens[3].style.color = "#f1f1f1";
+            liens[4].style.color = "#f1f1f1";
         }
     }
 };
@@ -63,23 +66,31 @@ $("#arrow").click(function () {
         'slow');
 });
 
-$(".liensNav:nth-child(1)").click(function () {
+$(".liensNav:nth-child(0)").click(function () {
     $('html,body').animate({
         scrollTop: $("#index.html").offset().top + 50
     },
         'slow');
 });
 
+$(".liensNav:nth-child(1)").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#valeurs").offset().top - 50
+    },
+        'slow');
+});
+
 $(".liensNav:nth-child(2)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#section-about").offset().top - 50
+        scrollTop: $("#atouts").offset().top - 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(3)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#atouts").offset().top - 50
+        scrollTop: $("#tarifs").offset().top - 50
+
     },
         'slow');
 });
