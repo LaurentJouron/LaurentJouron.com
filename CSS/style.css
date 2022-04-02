@@ -451,7 +451,7 @@ h1 {
 }
 .pres-gauche h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 29px;
     color: #FEEA9A;
     letter-spacing: 2px;
 }
@@ -462,6 +462,7 @@ h1 {
 }
 .pres-gauche p {
     color: #FEEA9A;
+    font-size: 20px;
     text-align: justify;
 }
 .pres-droite {
@@ -961,7 +962,9 @@ h1 {
 .section-parallax {
     width: 100%;
     height: 250px;
-    background: url(../ressources/fond_parallax.jpg) no-repeat center / cover fixed;
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 0.3), rgba(4, 4, 56, 0.3)), url(../ressources/fond_parallax.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;

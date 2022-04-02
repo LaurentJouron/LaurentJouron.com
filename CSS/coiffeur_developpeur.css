@@ -602,7 +602,7 @@ nav {
 .parallax {
     width: 100%;
     height: 300px;
-    background: url(../ressources/parallax_calligraphie.jpg);
+    background-image: url(../ressources/parallax_calligraphie.jpg);
     background-position: 13% 10%;
     background-attachment: fixed;
     display: flex;
