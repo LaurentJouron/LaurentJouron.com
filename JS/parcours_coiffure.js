@@ -75,30 +75,28 @@ $(".liensNav:nth-child(0)").click(function () {
 
 $(".liensNav:nth-child(1)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#valeurs").offset().top - 50
+        scrollTop: $("#parcours").offset().top - 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(2)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#atouts").offset().top - 50
+        scrollTop: $("#parcours").offset().top - 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(3)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#tarifs").offset().top - 50
-
+        scrollTop: $("#atouts").offset().top - 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(4)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#contact").offset().top - 50
-        // offset prends les coordonnés de contact et les retournent en top et left et ensuite on y va en cliquant
+        scrollTop: $("#rencontres").offset().top - 50
     },
         'slow');
 });

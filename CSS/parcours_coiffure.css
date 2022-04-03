@@ -294,6 +294,7 @@ header #arrow {
     background: url(../ressources/sectionBg.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 .cadre {
@@ -361,24 +362,28 @@ header #arrow {
 }
 
 /* Section Équipe */
-#equipe {
+#rencontres {
     height: 72rem;
     width: 100%;
     background: #f7f7f7;
     border-top: 1px dashed rgb(209,174,59);
+    text-align: center;
     padding-bottom: 10rem;
 }
-#equipe h3 {
-    text-align: center;
-    font-size: 5.5rem;
+#rencontres h3 {
     font-family: 'Kaushan Script';
-    background-image: linear-gradient(to right, #373737, #c0b283);
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--color3), #C0b283);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
-    font-family: 'Kaushan Script';
-    margin-bottom: 0;
+    letter-spacing: .2rem;
+    padding-top: 5rem;
 }
-#equipe p {
+#rencontres p {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -455,7 +460,7 @@ header #arrow {
     text-align: center;
     font-family: 'Kaushan Script';
     font-size: 10rem;
-        background-image: linear-gradient(to right, #373737, #c0b283);
+    background-image: linear-gradient(to right, #373737, #c0b283);
     -webkit-background-clip: text;
     color: transparent;
     
