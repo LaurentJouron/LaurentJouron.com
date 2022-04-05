@@ -460,6 +460,7 @@ header #arrow {
 }
 #contact h2 {
     font-family: 'Kaushan Script';
+    text-align: center;
     font-size: 10rem;
     background-image: linear-gradient(to right, #373737, #c0b283);
     -webkit-background-clip: text;
