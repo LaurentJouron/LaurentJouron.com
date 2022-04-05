@@ -296,6 +296,7 @@ header #arrow {
     background: url(../ressources/sectionBg.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 .cadre {
@@ -370,19 +371,21 @@ header #arrow {
     width: 100%;
     background: #f7f7f7;
     border-top: 1px dashed rgb(209,174,59);
+    text-align: center;
     padding-bottom: 10rem;
 }
 #rencontres h3 {
     font-family: 'Kaushan Script';
-    text-align: center;
-    font-size: 5.5rem;
-    background: #f7f7f7;
-    background-image: linear-gradient(to right, #000000, rgb(255,239,185));
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--color3), #C0b283);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin: 0;
-    padding-top: 4rem;
+    letter-spacing: .2rem;
+    padding-top: 5rem;
 }
 #rencontres p {
     text-align: center;
@@ -457,10 +460,8 @@ header #arrow {
 }
 #contact h2 {
     font-family: 'Kaushan Script';
-    text-align: center;
-    font-size: 8rem;
-    background: #f7f7f7;
-    background-image: linear-gradient(to right, #000000, rgb(255,239,185));
+    font-size: 10rem;
+    background-image: linear-gradient(to right, #373737, #c0b283);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

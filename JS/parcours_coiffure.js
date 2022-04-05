@@ -69,14 +69,14 @@ $("#arrow").click(function () {
 
 $(".liensNav:nth-child(1)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#accueil").offset().top + 50
+        scrollTop: $("#parcours").offset().top - 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(2)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#section-about").offset().top - 50
+        scrollTop: $("#parcours").offset().top - 50
     },
         'slow');
 });
@@ -91,7 +91,6 @@ $(".liensNav:nth-child(3)").click(function () {
 $(".liensNav:nth-child(4)").click(function () {
     $('html,body').animate({
         scrollTop: $("#rencontres").offset().top - 50
-        // offset prends les coordonnés de contact et les retournent en top et left et ensuite on y va en cliquant
     },
         'slow');
 });

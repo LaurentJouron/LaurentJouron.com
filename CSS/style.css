@@ -543,24 +543,16 @@ h1 {
     }
     .titre-pres {
         font-size: 35px;
-        font-family: 'Kaushan Script';
-        color: #FEEA9A;
         margin: 0 10px
     }
     .pres-gauche h3 {
         font-size: 20px;
-        font-family: 'Kaushan Script';
-        color: #FEEA9A;
     }
     .chiffre-style {
         font-size: 30px;
-        font-family: 'Kaushan Script';
-        color: #FEEA9A;
     }
     .txt-liste {
         font-size: 17px;
-        font-family: 'Kaushan Script';
-        color: #FEEA9A;
     }
 }
 
