@@ -1132,7 +1132,7 @@ footer {
     width: 100%;
     text-align: center;
     font-family: 'Kaushan Script';
-        color: var(--color3);
+    color: var(--color3);
     padding-top: 100px;
     padding-left: 300px;
 }

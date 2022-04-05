@@ -6,7 +6,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
 #navigation a:not(:nth-child(5)) {
     display: none;
@@ -303,10 +302,10 @@
 }
 
 @media (max-width: 992px) {
-    #equipe {
+    #rencontre {
         height: 65rem
     }
-    #equipe h3 {
+    #rencontre h3 {
         font-size: 4.5rem;
     }
     #quipe p {
@@ -319,16 +318,16 @@
 }
 
 @media (max-width: 768px) {
-    #equipe {
+    #rencontre {
         height: 180rem;
         background: linear-gradient(to right, rgba(55,55,55,0.1), rgb(243,235,209));
         padding-bottom: 5rem;
     }
-    #equipe h3 {
+    #rencontre h3 {
         font-size: 3.5rem;
         margin: 5rem 0 2rem 0;
     }
-    #equipe p {
+    #rencontre p {
         display: block;
         margin: auto;
         font-size: 1.8rem;
@@ -348,7 +347,7 @@
 }
 
 @media (max-width: 425px) {
-    #equipe {
+    #rencontre {
         height: 185rem;
     }
 }
