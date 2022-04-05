@@ -14,37 +14,37 @@ function colorHeader() {
     window.onscroll = function () {
         if (myWidth > 768) {
             if (document.documentElement.scrollTop > 980) {
-                nav.style.background = "#333333";
-                liens[0].style.color = "#f1f1f1";
-                liens[1].style.color = "#f1f1f1";
-                liens[2].style.color = "#f1f1f1";
-                liens[3].style.color = "#f1f1f1";
-                liens[4].style.color = "#f1f1f1";
+                nav.style.background = "#040438";
+                liens[0].style.color = "#FEEA9A";
+                liens[1].style.color = "#FEEA9A";
+                liens[2].style.color = "#FEEA9A";
+                liens[3].style.color = "#FEEA9A";
             } else {
-                nav.style.background = "#333333";
+                nav.style.background = "#333";
                 liens[0].style.color = "#f1f1f1";
                 liens[1].style.color = "#f1f1f1";
                 liens[2].style.color = "#f1f1f1";
                 liens[3].style.color = "#f1f1f1";
-                liens[4].style.color = "#f1f1f1";
             }
-            // second else pour mettre la nav en clair et bloqué l'anim du dessus
+
+        // second else pour mettre la nav en clair et bloqué l'anim du dessus
         } else {
-            nav.style.background = "#333333";
+            nav.style.background = "#333";
             liens[0].style.color = "#f1f1f1";
             liens[1].style.color = "#f1f1f1";
             liens[2].style.color = "#f1f1f1";
             liens[3].style.color = "#f1f1f1";
-            liens[4].style.color = "#f1f1f1";
         }
     }
 };
 
 // Responsiv nav
 function toggleNav() {
+
     if (nav.className === "") {
         nav.className += "responsive";
-    } else {
+    } 
+    else {
         nav.className = "";
     }
 }
@@ -54,6 +54,7 @@ $('html').click(function () {
         nav.className = "";
     }
 });
+
 $('#icon').click(function (event) {
     event.stopPropagation(); // stop la propagation, donc l'animation audessus
 });
@@ -66,23 +67,16 @@ $("#arrow").click(function () {
         'slow');
 });
 
-$(".liensNav:nth-child(0)").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#index.html").offset().top + 50
-    },
-        'slow');
-});
-
 $(".liensNav:nth-child(1)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#valeurs").offset().top - 50
+        scrollTop: $("#accueil").offset().top + 50
     },
         'slow');
 });
 
 $(".liensNav:nth-child(2)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#atouts").offset().top - 50
+        scrollTop: $("#section-about").offset().top - 50
     },
         'slow');
 });
@@ -90,14 +84,13 @@ $(".liensNav:nth-child(2)").click(function () {
 $(".liensNav:nth-child(3)").click(function () {
     $('html,body').animate({
         scrollTop: $("#tarifs").offset().top - 50
-
     },
         'slow');
 });
 
 $(".liensNav:nth-child(4)").click(function () {
     $('html,body').animate({
-        scrollTop: $("#contact").offset().top - 50
+        scrollTop: $("#rencontres").offset().top - 50
         // offset prends les coordonnés de contact et les retournent en top et left et ensuite on y va en cliquant
     },
         'slow');

@@ -6,39 +6,40 @@
     }
 }
 
+
 @media (max-width: 768px) {
-    #navigation a:not(:nth-child(5)) {
-        display: none;
-    }
-    .icon {
-        display: block;
-        position: absolute;
-        right: -3rem;
-        top: -1.6rem;
-        cursor: pointer;
-        color: #373737;
-        font-size: 3rem!important;
-    }
-    #navigation {
-        width: 100%;
-        text-align: center;
-        height: 5rem;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-        transition: all 0.4s ease-in-out;
-        border-bottom: 2px solid #373737;
-    }
-    #navigation.responsive {
-        height: 38rem;
-    }
-    #navigation.responsive a:not(:nth-child(5)) {
-        display: block;
-        text-align: center;
-        background: #F0EAd6;
-        margin: 0;
-        position: relative;
-        top: 4rem;
-        font-size: 3rem;
-    }
+#navigation a:not(:nth-child(5)) {
+    display: none;
+}
+.icon {
+    display: block;
+    position: absolute;
+    right: -3rem;
+    top: -1.6rem;
+    cursor: pointer;
+    color: #333;
+    font-size: 3rem!important;
+}
+#navigation {
+    width: 100%;
+    text-align: center;
+    height: 5rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transition: all 0.4s ease-in-out;
+    border-bottom: 2px solid #333;
+}
+#navigation.responsive {
+    height: 38rem;
+}
+#navigation.responsive a:not(:nth-child(5)) {
+    display: block;
+    text-align: center;
+    background: #333;
+    margin: 0;
+    position: relative;
+    top: 4rem;
+    font-size: 3rem;
+}
 }
 
 /*-------------- Page D'accueil ----------------*/
@@ -47,11 +48,11 @@
         height: 90vh;
     }
     h1 {
-        top: 27rem;
+        top: 20rem;
         font-size: 9rem;
     }
     header h2 {
-        top: 27rem;
+        top: 20rem;
         font-size: 3.5rem;
     }
     header #arrow {
@@ -68,11 +69,11 @@
         height: 80vh;
     }
     h1{
-        top: 20rem;
+        top: 17rem;
         font-size: 7rem;
     }
     header h2 {
-        top: 23rem;
+        top: 17rem;
         font-size: 3.8rem;
     }
     header #arrow {
@@ -85,11 +86,11 @@
         height: 73vh;
     }
     h1 {
-        top: 22rem;
+        top: 18rem;
         font-size: 6.2rem;
     }
     header h2 {
-        top: 24rem;
+        top: 18rem;
         font-size: 2.4rem;
         width: 80%;
         margin: auto;
@@ -105,15 +106,25 @@
 
 @media (max-width: 720px) {
     h1 {
-        top: 22rem;
+        top: 18rem;
         font-size: 5rem;
+    }
+    header h2 {
+        top: 18rem;
+        font-size: 2rem;
+        width: 50%;
     }
 }
 
 @media (max-width: 559px) {
     h1{
-        top: 22rem;
+        top: 20rem;
         font-size: 4.4rem;
+    }
+    header h2 {
+        top: 20rem;
+        font-size: 2rem;
+        width: 50%;
     }
 }
 
@@ -122,12 +133,12 @@
         height: 60vh;
     }
     h1 {
-        top: 20rem;
+        top: 8rem;
         font-size: 5.2rem;
         line-height:5.5rem;
     }
     header h2 {
-        top: 22rem;
+        top: 8rem;
         font-size: 2rem;
         width: 50%;
     }
@@ -141,23 +152,23 @@
 }
 
 @media (max-width: 425px) {
-  h1 {
-      top: 18rem;
+    h1 {
+      top: 8rem;
       font-size: 5.2rem;
       line-height: 5.5rem;
-  }
-  header h2 {
-      top: 20rem;
+    }
+    header h2 {
+      top: 10rem;
       font-size: 2rem;
       width: 60%;
-  }
-  header #arrow {
+    }
+    header #arrow {
       height: 4.5rem;
       width: 4.5rem;
       top: 54%;
       font-size: 2.5rem;
       line-height: 4.5rem;
-  }
+    }
 }
 
 /* Medias Section About */
@@ -247,6 +258,7 @@
         height: 20rem;
         width: 50rem;
     }
+
     .carousel .changeHidden {
         width: 100%;
     }
