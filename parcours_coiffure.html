@@ -1,225 +1,183 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parcours coiffure</title>
+        <!-- Favicon -->
+        <link rel="icon" href="ressources/ikigai.png" type="image/x-icon">
+        <!-- Polices de caractères -->
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous">
+        <!-- Feuilles de style -->
+        <link rel="stylesheet" href="CSS/parcours_coiffure.css">
+        <link rel="stylesheet" href="CSS/baseMedias.css">
+        <link rel="stylesheet" media="only screen and (width: 320px) and (height: 480px)" href="CSS/iphone4.css">
+        <link rel="stylesheet" media="only screen and (width: 768px) and (height: 1024px)" href="CSS/iPad_Mini.css">
+        <link rel="stylesheet" media="only screen and (width: 360px) and (height: 640px)" href="CSS/galaxy_S5.css">
+        <link rel="stylesheet" media="only screen and (width: 411px) and (height: 731px)" href="CSS/pixel2.css">
+        <link rel="stylesheet" media="only screen and (width: 320px) and (height: 568px)" href="CSS/iPhone5_SE.css">
+        <link rel="stylesheet" media="only screen and (width: 375px) and (height: 667px)" href="CSS/iPhone6_7_8.css">
+        <link rel="stylesheet" media="only screen and (width: 414px) and (height: 736px)" href="CSS/iPhone6_7_8PLUS.css">
+        <link rel="stylesheet" media="only screen and (width: 1024px) and (height: 1366px)" href="CSS/iPadPro.css">
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!-- GreenSock -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcours coiffure</title>
-    <!-- Favicon -->
-    <link rel="icon" href="ressources/ikigai.png" type="image/x-icon">
-    <!-- Polices de caractères -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <body>
+        <!-- Accueil -->
+        <header id="accueil">
+            <nav id="navigation">
+                <a href="index.html" class="liensNav" onclick="toggleNav()">Retour à l'accueil</a>
+                <a href="#parcours" class="liensNav" onclick="toggleNav()">Parcours</a>
+                <a href="#atouts" class="liensNav" onclick="toggleNav()">Atouts</a>
+                <a href="#rencontres" class="liensNav" onclick="toggleNav()">Rencontres</a>
+                <a class="icon" id="icon" onclick="toggleNav()"><i class="fas fa-bars"></i></a>
+            </nav>
+            <h1>28 années d'expérience</h1>
+            <h2>Jusqu'au bout du monde</h2>
+            <a href="#parcours" id="arrow"><i class="fas fa-cut"></i></a>
+        </header>
 
-    <!-- Feuilles de style -->
-    <link rel="stylesheet" href="CSS/parcours_coiffure.css">
-    <link rel="stylesheet" href="CSS/baseMedias.css">
-    <link rel="stylesheet" media="only screen and (width: 320px) and (height: 480px)" href="CSS/iphone4.css">
-    <link rel="stylesheet" media="only screen and (width: 768px) and (height: 1024px)" href="CSS/iPad_Mini.css">
-    <link rel="stylesheet" media="only screen and (width: 360px) and (height: 640px)" href="CSS/galaxy_S5.css">
-    <link rel="stylesheet" media="only screen and (width: 411px) and (height: 731px)" href="CSS/pixel2.css">
-    <link rel="stylesheet" media="only screen and (width: 320px) and (height: 568px)" href="CSS/iPhone5_SE.css">
-    <link rel="stylesheet" media="only screen and (width: 375px) and (height: 667px)" href="CSS/iPhone6_7_8.css">
-    <link rel="stylesheet" media="only screen and (width: 414px) and (height: 736px)" href="CSS/iPhone6_7_8PLUS.css">
-    <link rel="stylesheet" media="only screen and (width: 1024px) and (height: 1366px)" href="CSS/iPadPro.css">
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <!-- GreenSock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-<body>
-
-    <!-- Accueil -->
-    <header id="accueil">
-        <nav id="navigation">
-            <a href="index.html" class="liensNav" onclick="toggleNav()">Retour à l'accueil</a>
-            <a href="#parcours" class="liensNav" onclick="toggleNav()">Parcours</a>
-            <a href="#atouts" class="liensNav" onclick="toggleNav()">Atouts</a>
-            <a href="#rencontres" class="liensNav" onclick="toggleNav()">Rencontres</a>
-            <a class="icon" id="icon" onclick="toggleNav()"><i class="fas fa-bars"></i></a>
-        </nav>
-        <h1>28 années d'expérience</h1>
-        <h2>Jusqu'au bout du monde</h2>
-        <a href="#parcours" id="arrow"><i class="fas fa-cut"></i></a>
-    </header>
-
-    <!-- Section About -->
-    <section id="parcours" class="section-about">
-        <div class="centerH">
-            <h2 class="titreAbout">
-                Découvrez mon parcours.
-            </h2>
-        </div>
-
-        <div class="row">
-            <div class="col-1-of-2">
-                <h3 class="sousTitreAbout">Une passion sans limite</h3>
-                <p class="paragraphe">
-                    J'ai rencontré Yannick KRAEMER, chez qui j'ai fait mon apprentissage à Strasbourg.
-                    Formé à la perfection dans des conditions exceptionnelles, j'ai pû pousser les portes du plus grand groupe de coiffure au monde Jacques DESSANGE.
-                </p>
-                <h3 class="sousTitreAbout">Au delà des frontières</h3>
-                <p class="paragraphe">
-                    Pour Jacques DESSANGE, je suis allé dans de nombreux pays. Pour former, auditer, conseiller ou aider à l'ouverture de salon.<br>
-                    Les deux destinations qui m'ont marquées sont les Etats-Unis et l'Espagne.<br>
-                    C'est dû à ces nombreuses expériences que j'ai fait la rencontre d'Eric PFALZGRAF. Il m'a beaucoup apporté dans le management.
-                </p>
+        <!-- Section About -->
+        <section id="parcours" class="section-about">
+            <div class="centerH">
+                <h2 class="titreAbout">
+                    Découvrez mon parcours.
+                </h2>
             </div>
 
-            <div class="col-1-of-2">
-                <div class="composition">
-                    <img src="ressources/new_york.jpg" alt="Pont de Brooklyn et Manhattan au lever du soleil." class="composition_photo composition_photo--1">
-                    <img src="ressources/alicante.jpg" alt="Maison colorées donnant sur la plage" class="composition_photo composition_photo--2">
-                    <img src="ressources/paris.jpg" alt="Tour eiffel le long de la seine" class="composition_photo composition_photo--3">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="sousTitreAbout">Une passion sans limite</h3>
+                    <p class="paragraphe">
+                        J'ai rencontré Yannick KRAEMER, chez qui j'ai fait mon apprentissage à Strasbourg.
+                        Formé à la perfection dans des conditions exceptionnelles, j'ai pû pousser les portes du plus grand groupe de coiffure au monde Jacques DESSANGE.
+                    </p>
+                    <h3 class="sousTitreAbout">Au delà des frontières</h3>
+                    <p class="paragraphe">
+                        Pour Jacques DESSANGE, je suis allé dans de nombreux pays. Pour former, auditer, conseiller ou aider à l'ouverture de salon.<br>
+                        Les deux destinations qui m'ont marquées sont les Etats-Unis et l'Espagne.<br>
+                        C'est dû à ces nombreuses expériences que j'ai fait la rencontre d'Eric PFALZGRAF. Il m'a beaucoup apporté dans le management.
+                    </p>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Section Tarifs -->
-    <section id="tarifs">
-        <h2>Mes atouts</h2>
-        <div id="containerFlex">
-            <div class="flexCards">
-                <div class="head">
-                    <p>Dégradé</p>
-                </div>
-                <div class="contenu">Huile</div>
-                <div class="contenu">Crème</div>
-                <div class="contenu">Shampoing</div>
-                <div class="contenu">Dégradé</div>
-                <div class="prix">
-                    <p>10€</p>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="ressources/new_york.jpg" alt="Pont de Brooklyn et Manhattan au lever du soleil." class="composition_photo composition_photo--1">
+                        <img src="ressources/alicante.jpg" alt="Maison colorées donnant sur la plage" class="composition_photo composition_photo--2">
+                        <img src="ressources/paris.jpg" alt="Tour eiffel le long de la seine" class="composition_photo composition_photo--3">
+                    </div>
                 </div>
             </div>
-            <div class="flexCards">
-                <div class="head">
-                    <p>Barbe</p>
-                </div>
-                <div class="contenu">Huile</div>
-                <div class="contenu">Crème</div>
-                <div class="contenu">Shampoing</div>
-                <div class="contenu">Dégradé</div>
-                <div class="prix">
-                    <p>25€</p>
-                </div>
-            </div>
-            <div class="flexCards">
-                <div class="head">
-                    <p>La Totale</p>
-                </div>
-                <div class="contenu">Huile</div>
-                <div class="contenu">Crème</div>
-                <div class="contenu">Shampoing</div>
-                <div class="contenu">Dégradé</div>
-                <div class="prix">
-                    <p>35€</p>
-                </div>
-            </div>
-    </section>
+        </section>
 
-    <!-- Sections Phrases Slide -->
-    <section id="phrasesSlide">
-        <div class="cadre">
-            <div class="centre">
-                <div class="carousel">
-                    <div class="changeHidden">
-                        <div class="contenant">
-                            <div class="element">Consciencieux.</div>
-                            <div class="element">Bonne gestion du stress!</div>
-                            <div class="element">Capacité d’écoute.</div>
-                            <div class="element">Esprit d’analyse.</div>
-                            <div class="element">Motivé.</div>
+        <!-- Section Tarifs -->
+        <section id="tarifs">
+            <h2>Mes atouts</h2>
+            <div id="containerFlex">
+                <div class="flexCards">
+                    <div class="head">
+                        <p>Dégradé</p>
+                    </div>
+                    <div class="contenu">Huile</div>
+                    <div class="contenu">Crème</div>
+                    <div class="contenu">Shampoing</div>
+                    <div class="contenu">Dégradé</div>
+                    <div class="prix">
+                        <p>10€</p>
+                    </div>
+                </div>
+                <div class="flexCards">
+                    <div class="head">
+                        <p>Barbe</p>
+                    </div>
+                    <div class="contenu">Huile</div>
+                    <div class="contenu">Crème</div>
+                    <div class="contenu">Shampoing</div>
+                    <div class="contenu">Dégradé</div>
+                    <div class="prix">
+                        <p>25€</p>
+                    </div>
+                </div>
+                <div class="flexCards">
+                    <div class="head">
+                        <p>La Totale</p>
+                    </div>
+                    <div class="contenu">Huile</div>
+                    <div class="contenu">Crème</div>
+                    <div class="contenu">Shampoing</div>
+                    <div class="contenu">Dégradé</div>
+                    <div class="prix">
+                        <p>35€</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sections Phrases Slide -->
+        <section id="phrasesSlide">
+            <div class="cadre">
+                <div class="centre">
+                    <div class="carousel">
+                        <div class="changeHidden">
+                            <div class="contenant">
+                                <div class="element">Consciencieux.</div>
+                                <div class="element">Bonne gestion du stress!</div>
+                                <div class="element">Capacité d’écoute.</div>
+                                <div class="element">Esprit d’analyse.</div>
+                                <div class="element">Motivé.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Section Équipe -->
-    <section id="rencontres">
-        <h3>Mes plus belles rencontres</h3>
-        <p>Je pourrais écrire un livre sur chacune de ses trois rencontres, surtout sur le parcours inimaginable qu'ils m'ont offert.</p>
-        
-        <div class="containerFlexTeam">
-            <div class="team">
-                <div class="teamPic pic1"></div>
-                <div class="sousTxt">
-                    <h4>Yannick KRAEMER</h4>
-                    <p>Premier patron devenu un ami</p>
+        <!-- Section Équipe -->
+        <section id="rencontres">
+            <h3>Mes plus belles rencontres</h3>
+            <p>Je pourrais écrire un livre sur chacune de ces trois rencontres, surtout sur le parcours inimaginable qu'ils m'ont offert.</p>
+            <div class="containerFlexTeam">
+                <div class="team">
+                    <div class="teamPic pic1"></div>
+                    <div class="sousTxt">
+                        <h4>Yannick KRAEMER</h4>
+                        <p>Premier patron devenu un ami</p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="teamPic pic2"></div>
+                    <div class="sousTxt">
+                        <h4>Jacques DESSANGE</h4>
+                        <p>Milles merci pour tout</p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="teamPic pic3"></div>
+                    <div class="sousTxt">
+                        <h4>Eric PFALZGRAF</h4>
+                        <p>Manager exemplaire</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="team">
-                <div class="teamPic pic2"></div>
-                <div class="sousTxt">
-                    <h4>Jacques DESSANGE</h4>
-                    <p>Milles merci pour tout</p>
-                </div>
-            </div>
-
-            <div class="team">
-                <div class="teamPic pic3"></div>
-                <div class="sousTxt">
-                    <h4>Eric PFALZGRAF</h4>
-                    <p>Manager exemplaire</p>
-                </div>
-            </div>
-        </div>
-    <!-- Section contact -->
-    <section id="contact">
-        <h2>Téléphone</h2>
-        <h3>06 75 04 52 98</h3>
-        <div class="flexMedias">
-
-            <div class="medias">
-                <a href="https://github.com/LaurentJouron" target="_blank">
-                    <div class="media media1">
-                        <img src="ressources/github.png" alt="github icone"
-                             class="icone-medias">
-                    </div>
-                </a>
-    
-                <a href="https://www.linkedin.com/in/laurent-jouron/" target="_blank">
-                    <div class="media media2">
-                        <img src="ressources/linkedin.png" alt="linkedin icone"
-                             class="icone-medias">
-                    </div>
-                </a>
-    
-                <a href="https://twitter.com/LaurentJouron" target="blank">
-                    <div class="media media3">
-                        <img src="ressources/twitter.png" alt="twitter icone"
-                             class="icone-medias">
-                    </div>
-                </a>
-                
-                <a href="https://www.facebook.com/laurent.jouron" target="blank">
-                    <div class="media media3">
-                        <img src="ressources/facebook.png" alt="facebook icone"
-                             class="icone-medias">
-                    </div>
-                </a>
-                
-                <a href="https://www.youtube.com/channel/UCmrDJbBDpc1GpWVpkSD9wEg" target="blank">
-                    <div class="media media3">
-                        <img src="ressources/youtube.png" alt="twitter icone"
-                             class="icone-medias">
-                    </div>
-                </a>
-            </div>
-        </div>
-        <footer>
-            <img id="imgCopy" src="ressources/ikigai.png"> Laurent Jouron - Copyright 2022 &copy; - All rights reserved
-        </footer>
-    </section>
-</section>
+            <!-- Section contact -->
+            <section id="contact">
+                <h2>Téléphone</h2>
+                <h3>06 75 04 52 98</h3>
+                <footer>
+                    <img id="imgCopy" src="ressources/ikigai.png"> Laurent Jouron - Copyright 2022 &copy; - All rights reserved
+                </footer>
+            </section>
+        </section>
     <script src="JS/parcours_coiffure.js"></script>
     <script src="JS/greenSock.js"></script>
-</body>
-
+    </body>
 </html>

@@ -293,7 +293,7 @@ header #arrow {
     height: 60rem;
     width: 100%;
     border-top: 1px dashed rgb(209,174,59);
-    background: url(../ressources/sectionBg.jpg);
+    background: linear-gradient(to bottom, rgba(4, 4, 56, 0.05), rgba(4, 4, 56, 0.8)), url(../ressources/test.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -309,7 +309,7 @@ header #arrow {
     transform: translate(-50%,-50%);
     border-radius: 2px;
     background: rgba(55,55,55,0.3);
-    color: white;
+    color: var(--color1);
 }
 .centre {
     position: absolute;
@@ -643,7 +643,7 @@ header #arrow {
 }
 /* Footer */
 footer {
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
     font-size: 16px;
