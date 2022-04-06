@@ -373,6 +373,7 @@ header #arrow {
     border-top: 1px dashed rgb(209,174,59);
     text-align: center;
     padding-bottom: 10rem;
+    
 }
 #rencontres h3 {
     font-family: 'Kaushan Script';
@@ -642,15 +643,16 @@ header #arrow {
 }
 /* Footer */
 footer {
+    margin-top: 40px;
     width: 100%;
     text-align: center;
     font-size: 16px;
     font-family: 'Kaushan Script';
-    margin-top: 19rem;
 }
 @media screen and (max-width: 1300px) {
     footer {
         padding-left: 0px;
+        margin-top: 30px;
     }
 }
 #imgCopy {
