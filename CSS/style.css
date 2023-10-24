@@ -191,7 +191,10 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/arriere_plan_index.jpg);
+    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/arriere_plan_index.jpg); */
+    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.6)), url(../ressources/ReadCode.jpg); */
+    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.1)), url(../ressources/MatrixRain.png); */
+    background-image: linear-gradient(to right bottom, rgb(40, 29, 53), rgba(27, 27, 99, 0.116)), url(../ressources/MatrixRain.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -721,36 +724,30 @@ h1 {
     border-radius: 5px;
 }
 .b1 {
-    width: 10%;
+    width: 30%;
     background: #EFD81D
 }
 .b2 {
-    width: 40%;
+    width: 60%;
     background: #366C9C;
 }
+
 .b3 {
-    width: 70%;
-    background: #FF1FCA;
+    width: 60%;
+    background: #006EBF;
 }
 .b4 {
     width: 50%;
-    background: #006EBF;
-}
-.b5 {
-    width: 40%;
     background: #5C2B3D;
 }
-.b6 {
-    width: 60%;
-    background: #D25836;
-}
-.b7 {
-    width: 60%;
-    background: #21A366;
-}
-.b8 {
-    width: 10%;
+
+.b5 {
+    width: 70%;
     background: #103E2E;
+}
+.b6 {
+    width: 70%;
+    background: #802D2D;
 }
 .label-skill {
     font-size: 27px;
