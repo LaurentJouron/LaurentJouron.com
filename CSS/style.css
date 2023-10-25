@@ -5,7 +5,6 @@
 }
 
 :root {
-
     --color1: #FEEA9A;  /* Couleur de la police d'écriture rgb(254, 234, 154)
     --color2: #3c65af;  /* Bleu Defilépsie rgb(6 104 175) */
     --color3: #333333;  /* Gris rgb(51 51 51) */
@@ -15,6 +14,8 @@
     --color7: #F6D14F;  /* Jaune Orangé Coiffirst rgb(246 209 76) */
     --color8: #B9B9B9;  /* gris Dessange rgb(185 185 185) */
     --color9: #bf1e2e;  /* Rouge Defilépsie rgb(191 30 46) */
+    --color10: #485563; /* Gris navbar*/
+    --color11: #29323c; /* Filtre gradiant*/
 }
 html {
     scroll-behavior: smooth;
@@ -29,7 +30,8 @@ body {
     width: 300px;
     height: 100vh;
     min-height: 800px;
-    background: var(--color3);
+    background: var(--color10);
+    background-image: linear-gradient(to left, var(--color11), var(--color10));
     position: fixed;
     top: 0;
     left: -300px;
@@ -53,7 +55,7 @@ body {
 }
 .blocs-menu span a {
     text-decoration: none;
-    color: var(--color4);
+    color: #FEEA9A;
 }
 .blocs-menu span::after {
     content: '';
@@ -191,10 +193,7 @@ body {
 
 /* ------------------ Accueil ---------------- */
 .accueil {
-    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.5)), url(../ressources/arriere_plan_index.jpg); */
-    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.6)), url(../ressources/ReadCode.jpg); */
-    /* background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.1)), url(../ressources/MatrixRain.png); */
-    background-image: linear-gradient(to right bottom, rgb(40, 29, 53), rgba(27, 27, 99, 0.116)), url(../ressources/MatrixRain.png);
+    background-image: linear-gradient(to right bottom, rgba(4, 4, 56, 1), rgba(4, 4, 56, 0.1)), url(../ressources/MatrixRain.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -206,8 +205,8 @@ body {
 }
 h1 {
     font-size: 80px;
-    color: #FEEA9A;
-    font-family: 'Kaushan Script';
+    color: var(--color1);
+    font-family: 'Poppins', sans-serif;
     margin: 0 60px;
     padding-top: 120px;
 }
@@ -220,7 +219,7 @@ h1 {
     width: 200px;
     height: 50px;
     text-decoration: none;
-    background: #FEEA9A;
+    background: var(--color1);
     justify-content: center;
     align-items: center;
     color: var(--color3);
@@ -234,7 +233,7 @@ h1 {
 .btn-acc2 {
     background: transparent;
     border: 2px solid #FEEA9A;
-    color: #FEEA9A;
+    color: var(--color1);
     font-weight: 700;
 }
 .medias {
@@ -423,7 +422,7 @@ h1 {
 }
 .fond-forme {
     background: #485563;
-    background-image: linear-gradient(to right, #29323c, #485563);
+    background-image: linear-gradient(to right, var(--color11), var(--color10));
     width: 2300px;
     height: 1000px;
     position: absolute;
@@ -432,7 +431,7 @@ h1 {
 }
 .titre-pres {
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
+    color: var(--color1);
     font-size: 60px;
     text-align: center;
     margin: 50px 0 70px 0;
@@ -457,16 +456,16 @@ h1 {
 .pres-gauche h3 {
     text-align: center;
     font-size: 29px;
-    color: #FEEA9A;
+    color: var(--color1);
     letter-spacing: 2px;
 }
 .pres-gauche hr {
     width: 60px;
-    color: #FEEA9A;
+    color: var(--color1);
     margin: 0 auto 20px auto;
 }
 .pres-gauche p {
-    color: #FEEA9A;
+    color: var(--color1);
     font-size: 20px;
     text-align: justify;
 }
@@ -478,7 +477,7 @@ h1 {
 }
 .liste-presentation {
     list-style-type: none;
-    color: #FEEA9A;
+    color: var(--color1);
     padding: 10px 0 50px 110px;
 }
 .chiffre-style {
@@ -499,7 +498,7 @@ h1 {
     }
     .titre-pres {
         font-family: 'Kaushan Script';
-        color: #FEEA9A;
+        color: var(--color1);
         padding-left: 0px;
     }
 }
@@ -683,7 +682,7 @@ h1 {
     padding-bottom: 200px;
     border-bottom: 1px dashed var(--color3);
     background: #485563;
-    background-image: linear-gradient(to right, #29323c, #485563);
+    background-image: linear-gradient(to right, var(--color11), var(--color10));
     color: var(--color4);
     position: relative;
     z-index: -1;
@@ -695,7 +694,7 @@ h1 {
     font-size: 70px;
     text-align: center;
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
+    color: var(--color1);
     margin: 80px 0 90px 0;
     padding-left: 300px;
 }
@@ -752,12 +751,12 @@ h1 {
 .label-skill {
     font-size: 27px;
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
+    color: var(--color1);
 }
 .number-skill {
     font-size: 17px;
     font-family: 'Kaushan Script';
-    color: #FEEA9A;
+    color: var(--color1);
 }
 
 /* Medias Range */
@@ -773,7 +772,7 @@ h1 {
 @media screen and (max-width: 1300px) {
     .section-range {
         padding-left: 0;
-        color: #FEEA9A;
+        color: var(--color1);
     }
     .titre-exp {
         padding-left: 0;
@@ -807,7 +806,7 @@ h1 {
     .label-skill {
         font-size: 20px;
         font-family: 'Kaushan Script';
-        color: #FEEA9A;
+        color: var(--color1);
     }
 
     .grille-skill{
@@ -967,7 +966,7 @@ h1 {
 
     font-size: 60px;
     font-weight: bold;
-    color: #FEEA9A;
+    color: var(--color1);
     margin: 0 50px;
 }
 .txt-par:nth-child(1){
@@ -979,7 +978,7 @@ h1 {
         font-size: 25px;
         font-size: 60px;
         font-family: 'Kaushan Script';
-        color: #FEEA9A;
+        color: var(--color1);
         margin: 0 30px;
 
     }
@@ -993,7 +992,7 @@ h1 {
         font-size: 22px;
         font-size: 40px;
         font-family: 'Kaushan Script';
-        color: #FEEA9A;
+        color: var(--color1);
         margin: 0 25px;
     }
 }
@@ -1007,7 +1006,7 @@ h1 {
     .txt-par {
         font-size: 20px;
         font-family: 'Kaushan Script';
-        color: #FEEA9A;
+        color: var(--color1);
         margin: 20px 0px;
     }
 }
