@@ -55,7 +55,7 @@ body {
 }
 .blocs-menu span a {
     text-decoration: none;
-    color: #FEEA9A;
+    color: var(--color1);
 }
 .blocs-menu span::after {
     content: '';
@@ -430,7 +430,7 @@ h1 {
     z-index: -1;
 }
 .titre-pres {
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color1);
     font-size: 60px;
     text-align: center;
@@ -481,12 +481,12 @@ h1 {
     padding: 10px 0 50px 110px;
 }
 .chiffre-style {
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
 }
 .txt-liste {
     font-size: 25px;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     display: inline;
 }
 
@@ -497,7 +497,7 @@ h1 {
         padding-left: 0px;
     }
     .titre-pres {
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         color: var(--color1);
         padding-left: 0px;
     }
@@ -565,7 +565,7 @@ h1 {
 .titre-port {
     text-align: center;
     padding: 50px 0;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color3);
     font-size: 70px;
     padding-left: 300px;
@@ -646,7 +646,7 @@ h1 {
     }
     .titre-port {
         font-size: 70px;
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         margin: 50px 0 70px;
         padding-left: 0;
     }
@@ -693,7 +693,7 @@ h1 {
 .titre-exp {
     font-size: 70px;
     text-align: center;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color1);
     margin: 80px 0 90px 0;
     padding-left: 300px;
@@ -750,12 +750,12 @@ h1 {
 }
 .label-skill {
     font-size: 27px;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color1);
 }
 .number-skill {
     font-size: 17px;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color1);
 }
 
@@ -805,7 +805,7 @@ h1 {
     }
     .label-skill {
         font-size: 20px;
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         color: var(--color1);
     }
 
@@ -829,7 +829,7 @@ h1 {
     text-align: center;
     margin: 70px 0;
     font-size: 60px;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color3);
 }
 .cont-exp-travail {
@@ -901,7 +901,7 @@ h1 {
     background: var(--color8);
 }
 .titre-section-bloc {
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     padding-bottom: 10px;
 }
@@ -962,8 +962,7 @@ h1 {
     border-bottom: 1px dashed var(--color3);
 }
 .txt-par {
-    font-family: 'Kaushan Script';
-
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: bold;
     color: var(--color1);
@@ -977,7 +976,7 @@ h1 {
     .txt-par {
         font-size: 25px;
         font-size: 60px;
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         color: var(--color1);
         margin: 0 30px;
 
@@ -991,7 +990,7 @@ h1 {
     .txt-par {
         font-size: 22px;
         font-size: 40px;
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         color: var(--color1);
         margin: 0 25px;
     }
@@ -1005,7 +1004,7 @@ h1 {
     }
     .txt-par {
         font-size: 20px;
-        font-family: 'Kaushan Script';
+        font-family: 'Poppins', sans-serif;
         color: var(--color1);
         margin: 20px 0px;
     }
@@ -1017,7 +1016,7 @@ h1 {
     height: auto;
 }
 .section-contact h2 {
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: var(--color3);
     font-size: 60px;
@@ -1127,7 +1126,7 @@ textarea:focus {
 footer {
     width: 100%;
     text-align: center;
-    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
     color: var(--color3);
     padding-top: 100px;
     padding-left: 300px;
